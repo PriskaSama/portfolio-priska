@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import HomePage from './home'
+import Head from 'next/head';
+import Image from 'next/image';
+
+import HomePage from "@pages/home";
 
 
 const Home = () => {
