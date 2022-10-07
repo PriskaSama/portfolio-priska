@@ -1,5 +1,5 @@
 import Image from "next/Image";
-import Logo from "@src/assets/img/cat.jpg";
+import Logo from "@src/assets/img/pp-keyboard.png";
 
 let styles = {
   title: "uppercase underline text-center text-3xl py-10",

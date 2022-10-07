@@ -1,5 +1,5 @@
 let styles = {
-  navbar: "flex flex-row bg-black text-white",
+  navbar: "flex bg-black text-white",
   ul: "uppercase",
   logo: "h-auto w-20 lg:w-80"
 };
@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* LOGO */}
       <div>
         <img
-          src="https://cdn.pixabay.com/photo/2013/05/30/18/21/cat-114782_1280.jpg"
+          src="../../assets/img/pp-keyboard.png"
           alt=""
           className={styles.logo}
         />
