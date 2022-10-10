@@ -1,9 +1,10 @@
-import Image from "next/Image";
-import Logo from "@src/assets/img/pp-keyboard.png";
+import Image from "next/image";
+import priskaxsukuna from "@src/assets/img/priskaxsukuna.png";
 
 let styles = {
-  title: "uppercase underline text-center text-3xl py-10",
-  template: "grid grid-cols-3",
+  title: "underline text-center text-3xl py-10",
+  title2: "uppercase",
+  template: "grid",
   template1: "flex flex-col bg-violet-400",
   template2: "flex flex-row bg-indigo-400",
   button: "flex flex-row w-full justify-center py-10",
@@ -12,8 +13,9 @@ let styles = {
 const Content = () => {
   return (
     <>
-    <Image src={Logo} alt="logo" />
-      <h1 className={styles.title}>Hello content!</h1>
+    <Image src={priskaxsukuna} alt="logo" />
+      <h1 className={styles.title}>Hello, mon nom est </h1>
+      <h2>Priska Derville</h2>
       <div className={styles.template}>
         {/* COL 1 */}
         <div>

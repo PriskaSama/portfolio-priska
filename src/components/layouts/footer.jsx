@@ -1,33 +1,12 @@
 const Footer = () => {
   return (
-    <footer>
-      <div className="grid grid-cols-3 bg-blue-400">
+    <footer className="bg-black w-full mt-auto h-28 flex justify-center items-center ">
+      <div className="text-white text-center">
         <div>
-          {/* COL 1 */}
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            fugiat neque qui vel, perferendis error. Aspernatur delectus eaque
-            sed! Dolor, vel quasi debitis esse quibusdam repellendus accusamus.
-            Vel, totam dolore.
+            © 2022 - Prisca Derville
           </p>
-        </div>
-        <div>
-          {/* COL 2 */}
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            fugiat neque qui vel, perferendis error. Aspernatur delectus eaque
-            sed! Dolor, vel quasi debitis esse quibusdam repellendus accusamus.
-            Vel, totam dolore.
-          </p>
-        </div>
-        <div>
-          {/* COL 3 */}
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            fugiat neque qui vel, perferendis error. Aspernatur delectus eaque
-            sed! Dolor, vel quasi debitis esse quibusdam repellendus accusamus.
-            Vel, totam dolore.
-          </p>
+          <p>Made with my blood & tears🩸😭</p>
         </div>
       </div>
     </footer>

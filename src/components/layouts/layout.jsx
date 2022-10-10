@@ -2,7 +2,7 @@ import Navbar from "@src/components/layouts/navbar";
 import Footer from "@src/components/layouts/footer";
 
 let styles = {
-  main: "h-screen"
+  main: "h-min"
 }
 
 const Layout = ({children}) => {
