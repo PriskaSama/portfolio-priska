@@ -4,7 +4,7 @@ import priska from "../../assets/img/p-letter.png"
 let styles = {
   navbar: "bg-black text-white h-auto grid grid-cols-2",
   ul: "uppercase flex flex-col",
-  logo: "h-auto w-12 lg:w-80",
+  logo: "h-auto w-16 lg:w-80 ml-8 mt-8",
   divnav: "flex justify-end mr-8 my-4",
   divlogo: "flex justify-start",
 };
@@ -23,16 +23,13 @@ const Navbar = () => {
             <a href="#">Accueil</a>
           </li>
           <li>
-            <a href="#">01. A propos</a>
+            <a href="#apropos">01. A propos</a>
           </li>
           <li>
-            <a href="#">02. Skills</a>
+            <a href="#projets">02. Projets</a>
           </li>
           <li>
-            <a href="#">03. Projets</a>
-          </li>
-          <li>
-            <a href="#">04. Contact</a>
+            <a href="#contact">03. Contact</a>
           </li>
           <li>
             <a href="#">Mon CV</a>

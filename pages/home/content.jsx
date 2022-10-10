@@ -2,52 +2,33 @@ import Image from "next/image";
 import priskaxsukuna from "@src/assets/img/priskaxsukuna.png";
 
 let styles = {
-  title: "underline text-center text-3xl py-10",
-  title2: "uppercase",
-  template: "grid",
-  template1: "flex flex-col bg-violet-400",
-  template2: "flex flex-row bg-indigo-400",
-  button: "flex flex-row w-full justify-center py-10",
+  title: "text-lg py-4",
+  title2: "uppercase text-4xl",
+  template: "grid text-left px-8 py-12",
+  button:
+    "flex flex-row w-full justify-center py-4 border-solid border-2 border-yellow-400/75 hover:border-slate-400 rounded-md",
+  intro: "py-10",
 };
 
 const Content = () => {
   return (
     <>
-    <Image src={priskaxsukuna} alt="logo" />
-      <h1 className={styles.title}>Hello, mon nom est </h1>
-      <h2>Priska Derville</h2>
+      {/* INTRODUCTION */}
+      <Image src={priskaxsukuna} alt="logo" height="300" width="300" />
       <div className={styles.template}>
-        {/* COL 1 */}
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            quod iure rerum, recusandae molestias ut perspiciatis sed voluptates
-            obcaecati incidunt! Voluptas ea numquam rem laborum, quidem vel
-            deleniti ex incidunt.
-          </p>
-          <div className={styles.button}>
-          <button>Click</button>
-          </div>
-        </div>
-        {/* COL 2 */}
-        <div className={styles.template2}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugit
-            deserunt placeat quibusdam totam quos sapiente accusantium in. Sint
-            incidunt rem voluptatibus aliquid eos perferendis, nemo reiciendis
-            minus ut dolorum.
-          </p>
-          <img src="https://cdn.pixabay.com/photo/2013/05/30/18/21/cat-114782_1280.jpg" alt=""/>
-        </div>
-        {/* COL 3 */}
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            porro ipsa odit accusantium! Nesciunt, suscipit iure, velit odio
-            natus unde sapiente impedit odit at architecto quod, repudiandae
-            quisquam cupiditate eum.
-          </p>
-        </div>
+        <h1 className={styles.title}>Bonjour, je suis</h1>
+        <h1 className={styles.title2}>Priska Derville</h1>
+        <h1 className={styles.title}>Et je suis développeuse web</h1>
+        <p className={styles.intro}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus tempora eligendi neque voluptatum officia architecto
+          numquam molestias reprehenderit laborum, aspernatur consequatur veniam
+          voluptatibus rerum autem magni exercitationem cupiditate consectetur
+          modi.
+        </p>
+      <div className={styles.button}>
+        <button>Pour en savoir plus, je vous invite à scroller</button>
+      </div>
       </div>
     </>
   );
