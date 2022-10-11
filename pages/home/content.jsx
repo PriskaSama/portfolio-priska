@@ -7,7 +7,7 @@ let styles = {
   template: "grid text-left px-8 py-12",
   button:
     "flex flex-row w-full justify-center py-4 border-solid border-2 border-yellow-400/75 hover:border-slate-400 rounded-md",
-  intro: "py-10",
+  intro: "py-16",
 };
 
 const Content = () => {

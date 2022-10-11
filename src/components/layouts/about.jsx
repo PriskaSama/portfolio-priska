@@ -3,14 +3,16 @@ import priskaxsukuna from "@src/assets/img/priskaxsukuna.png";
 
 let styles = {
   template: "grid text-left px-8 py-12",
-  skills: "grid grid-cols-2 gap-8 list-none uppercase py-8",
+  skills: "grid grid-cols-2 gap-8 list-none uppercase py-20",
+  profilepic: "flex justify-center py-8",
+  title: "text-2xl uppercase underline pb-20"
 };
 
-const about = () => {
+const About = () => {
   return (
     // ABOUT ZONE
     <div className={styles.template}>
-    <h2>02. A propos</h2>
+    <h2 className={styles.title}>01. A propos</h2>
     <p>Salut! C'est moi Priska - "expliquer le commencement et ce que je faisais</p>
     <p>Pourquoi le changement</p>
     <p>Ce que je fais aujourd'hui, ce que je cherche</p>
@@ -24,10 +26,11 @@ const about = () => {
       <li>Wordpress</li>
       <li>Tailwind css</li>
       <li>Bootstrap</li>
-      <li>Node/ React / Next</li>
+      <li>Node.js/ React.js/ Next.js</li>
+      <li>Symfony / Express.js</li>
     </ul>
-    <div>
-      <Image src={priskaxsukuna} alt="profile-pic" height="100" width="100" />
+    <div className={styles.profilepic}>
+      <Image src={priskaxsukuna} alt="profile-pic" height="200" width="200" />
     </div>
     </div>
   );
