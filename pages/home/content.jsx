@@ -8,17 +8,20 @@ let styles = {
   button:
     "flex flex-row w-full justify-center py-4 border-solid border-2 border-yellow-400/75 hover:border-slate-400 rounded-md",
   intro: "py-16",
+  profilphoto: "flex justify-center mt-8"
 };
 
 const Content = () => {
   return (
     <>
       {/* INTRODUCTION */}
-      <Image src={priskaxsukuna} alt="logo" height="300" width="300" />
+      <div className={styles.profilphoto}>
+      <Image src={priskaxsukuna} alt="logo" height="300" width="300"/>
+      </div>
       <div className={styles.template}>
         <h1 className={styles.title}>Bonjour, je suis</h1>
         <h1 className={styles.title2}>Priska Derville</h1>
-        <h1 className={styles.title}>Et je suis développeuse web</h1>
+        <h1 className={styles.title}>Et je suis développeuse web front-end</h1>
         <p className={styles.intro}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Necessitatibus tempora eligendi neque voluptatum officia architecto
@@ -27,7 +30,7 @@ const Content = () => {
           modi.
         </p>
       <div className={styles.button}>
-        <button>Pour en savoir plus, je vous invite à scroller</button>
+        <button>Ne perdez pas de temps, scrollez directement 😊</button>
       </div>
       </div>
     </>
