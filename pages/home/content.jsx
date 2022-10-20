@@ -1,5 +1,5 @@
 import Image from "next/image";
-import priskaxsukuna from "@src/assets/img/priskaxsukuna.png";
+import priskachill from "@src/assets/img/chill-working.png";
 
 let styles = {
   title: "text-lg py-4",
@@ -16,7 +16,7 @@ const Content = () => {
     <>
       {/* INTRODUCTION */}
       <div className={styles.profilphoto}>
-      <Image src={priskaxsukuna} alt="logo" height="300" width="300"/>
+      <Image src={priskachill} alt="logo" height="300" width="300"/>
       </div>
       <div className={styles.template}>
         <h1 className={styles.title}>Bonjour, je suis</h1>
@@ -30,7 +30,7 @@ const Content = () => {
           modi.
         </p>
       <div className={styles.button}>
-        <button>Ne perdez pas de temps, scrollez directement 😊</button>
+        <button>Ne perdez pas de temps, scrollez directement</button>
       </div>
       </div>
     </>
