@@ -1,10 +1,10 @@
 import Layout from "@src/components/layouts/layout";
-import Content from "@pages/home/content";
+import Intro from "@pages/home/intro/intro";
 
 const HomePage = () => {
     return (
         <>
-        <Layout children={<Content />}/>
+        <Layout children={<Intro />}/>
         </>
     );
         

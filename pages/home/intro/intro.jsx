@@ -11,7 +11,7 @@ let styles = {
   profilphoto: "flex justify-center mt-8"
 };
 
-const Content = () => {
+const Intro = () => {
   return (
     <>
       {/* INTRODUCTION */}
@@ -37,4 +37,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Intro;

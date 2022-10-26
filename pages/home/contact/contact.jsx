@@ -12,7 +12,7 @@ const Contacts = () => {
   return (
     // CONTACT DETAILS + FORM TO ADD
     <div className={styles.template}>
-      <h1 className={styles.title}>04. Contact</h1>
+      <h1 className={styles.title}>03. Contact</h1>
       <div className={styles.contactpic}>
         <Image src={contactme} alt="contactme" height="180" width="180" />
       </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import priskaxcat from "../../assets/img/grumpy.png"
+import priskaxcat from "@src/assets/img/grumpy.png"
 
 let styles = {
   navbar: "bg-black text-white h-auto grid grid-cols-2",
