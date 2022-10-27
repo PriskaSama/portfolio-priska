@@ -1,5 +1,7 @@
 import Image from "next/image";
 import priskachill from "@src/assets/img/chill-working.png";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 let styles = {
   title: "text-lg py-4",
@@ -8,7 +10,8 @@ let styles = {
   button:
     "flex flex-row w-full justify-center py-4 border-solid border-2 border-yellow-400/75 hover:border-slate-400 rounded-md",
   intro: "py-16",
-  profilphoto: "flex justify-center mt-8"
+  profilphoto: "flex justify-center mt-8",
+  icons: "flex justify-center py-8 md:hidden lg:hidden"
 };
 
 const Intro = () => {
@@ -29,6 +32,10 @@ const Intro = () => {
           voluptatibus rerum autem magni exercitationem cupiditate consectetur
           modi.
         </p>
+        <div className={styles.icons}>
+          <LinkedInIcon />
+          <GitHubIcon />
+        </div>
       <div className={styles.button}>
         <button>Ne perdez pas de temps, scrollez directement</button>
       </div>

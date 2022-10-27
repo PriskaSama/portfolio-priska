@@ -21,7 +21,7 @@ const About = () => {
       <p>Pourquoi le changement?</p>
       <p>Ce que je fais aujourd'hui, ce que je cherche</p>
       <p className={styles.spacebtw}>
-        Voici la stack technique sur laquelle je travail:{" "}
+        Voici la stack technique sur laquelle je travail:
       </p>
       <ul className={styles.skills}>
         <li>HTML</li>

@@ -4,7 +4,8 @@ import Intro from "@pages/home/intro/intro";
 const HomePage = () => {
     return (
         <>
-        <Layout children={<Intro />}/>
+        <Layout />
+        <Intro />
         </>
     );
         

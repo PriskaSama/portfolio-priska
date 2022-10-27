@@ -32,7 +32,7 @@ const Navbar = () => {
             <a href="#contact">03. Contact</a>
           </li>
           <li>
-            <a href="#">Mon CV</a>
+            <a href="https://cv-priscaderville.netlify.app">Mon CV</a>
           </li>
         </ul>
       </div>
