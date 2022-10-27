@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       {/* LOGO */}
       <div className={styles.logo}>
-        <Image src={priskaxcat} />
+        <Image src={priskaxcat} alt="priskacat"/>
       </div>
       {/* NAV BAR */}
       <div className={styles.divnav}>
