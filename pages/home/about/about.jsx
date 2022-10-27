@@ -15,7 +15,7 @@ const About = () => {
     <div className={styles.template}>
       <h2 className={styles.title}>01. A propos</h2>
       <p>
-        Salut! Moi c'est Priska - expliquer le commencement et ce que je
+        Salut! Moi c est Priska - expliquer le commencement et ce que je
         faisais.
       </p>
       <p>Pourquoi le changement?</p>
