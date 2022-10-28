@@ -2,7 +2,7 @@ import Image from "next/image";
 import contactme from "@src/assets/img/contactme.png";
 
 let styles = {
-  template: "grid text-left px-8 py-12 bg-black text-white",
+  template: "grid text-left px-8 py-12",
   title: "text-2xl uppercase underline pb-20",
   intro: "py-12",
   contactpic: "flex justify-center py-8",
@@ -12,7 +12,7 @@ const Contacts = () => {
   return (
     // CONTACT DETAILS + FORM TO ADD
     <div className={styles.template}>
-      <h1 className={styles.title}>03. Contact</h1>
+      <h1 className={styles.title}>04. Contact</h1>
       <div className={styles.contactpic}>
         <Image src={contactme} alt="contactme" height="180" width="180" />
       </div>

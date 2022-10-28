@@ -1,7 +1,8 @@
 import Image from "next/image";
 import priskachill from "@src/assets/img/chill-working.png";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 let styles = {
   title: "text-lg py-4",
@@ -11,7 +12,8 @@ let styles = {
     "flex flex-row w-full justify-center py-4 border-solid border-2 border-yellow-400/75 hover:border-slate-400 rounded-md",
   intro: "py-16",
   profilphoto: "flex justify-center mt-8",
-  icons: "flex justify-center py-8 md:hidden lg:hidden"
+  icons: "flex justify-center py-8 md:hidden lg:hidden",
+  animateBounce: "animate-bounce w-6 h-6",
 };
 
 const Intro = () => {
@@ -19,7 +21,7 @@ const Intro = () => {
     <>
       {/* INTRODUCTION */}
       <div className={styles.profilphoto}>
-      <Image src={priskachill} alt="logo" height="300" width="300"/>
+        <Image src={priskachill} alt="logo" height="300" width="300" />
       </div>
       <div className={styles.template}>
         <h1 className={styles.title}>Bonjour, je suis</h1>
@@ -33,12 +35,19 @@ const Intro = () => {
           modi.
         </p>
         <div className={styles.icons}>
-          <LinkedInIcon />
-          <GitHubIcon />
+           <a href="https://www.linkedin.com/in/dervilleprisca/">
+            <LinkedInIcon sx={{ fontSize: 30 }} /> 
+           </a>
+           <a href="https://github.com/PriskaSama">
+           <GitHubIcon sx={{ fontSize: 30 }} />
+           </a>
         </div>
-      <div className={styles.button}>
-        <button>Ne perdez pas de temps, scrollez directement</button>
-      </div>
+        <div className={styles.button}>
+          <button>Ne perdez pas de temps, scrollez directement</button>
+        </div>
+        <div className={styles.profilphoto}>
+        <ArrowDownwardIcon className={styles.animateBounce} />
+        </div>
       </div>
     </>
   );

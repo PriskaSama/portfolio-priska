@@ -23,13 +23,16 @@ const Navbar = () => {
             <a href="#">Accueil</a>
           </li>
           <li>
-            <a href="#apropos">01. A propos</a>
+            <a href="#apropos">A propos</a>
           </li>
           <li>
-            <a href="#projets">02. Projets</a>
+            <a href="#projets">Projets</a>
           </li>
           <li>
-            <a href="#contact">03. Contact</a>
+            <a href="#contact">Mon parcours</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             <a href="https://cv-priscaderville.netlify.app">Mon CV</a>

@@ -15,11 +15,11 @@ const About = () => {
     <div className={styles.template}>
       <h2 className={styles.title}>01. A propos</h2>
       <p>
-        Salut! Moi c est Priska - expliquer le commencement et ce que je
+        Salut! Moi c&apos;est Priska - expliquer le commencement et ce que je
         faisais.
       </p>
       <p>Pourquoi le changement?</p>
-      <p>Ce que je fais aujourd hui, ce que je cherche</p>
+      <p>Ce que je fais aujourd&apos;hui, ce que je cherche</p>
       <p className={styles.spacebtw}>
         Voici la stack technique sur laquelle je travail:
       </p>
