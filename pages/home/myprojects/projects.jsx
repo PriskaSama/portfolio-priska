@@ -42,7 +42,7 @@ const Projects = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Elaboration d'un wireframe.</Typography>
+          <Typography>Elaboration d&apos;un wireframe.</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -235,7 +235,7 @@ const Projects = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Elaboration d'un wireframe.</Typography>
+          <Typography>Elaboration d&apos;un wireframe.</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
