@@ -14,6 +14,10 @@ export default function Document() {
       <body className="font-silkscreen">
         <Main />
         <NextScript />
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <script>
+    AOS.init();
+  </script>
       </body>
     </Html>
   );

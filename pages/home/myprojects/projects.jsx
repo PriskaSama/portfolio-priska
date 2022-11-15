@@ -12,7 +12,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 let styles = {
   template: "grid text-left px-8 py-12",
@@ -23,7 +24,7 @@ let styles = {
   tasks: "list-none mt-8",
   div1: "py-4",
   divImage: "py-14 flex justify-center",
-  text: "pt-4"
+  text: "pt-4",
 };
 
 const Projects = () => {
@@ -31,7 +32,7 @@ const Projects = () => {
     <div className={styles.template}>
       <h1 className={styles.title}>02. Mes projets</h1>
       {/* Project 1 */}
-      <div className={styles.div1}>
+      <div className={styles.div1} data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
         <h2 className={styles.title2}>Intégration wireframe</h2>
         <h3 className={styles.title3}>Projet de groupe</h3>
         <p className={styles.text}>Notre tout premier projet par groupe de deux. L&apos;objectif était d&apos;intégrer une maquette préalablement crée.</p>
@@ -76,7 +77,7 @@ const Projects = () => {
         </div>
       </div>
       {/* Project 2 */}
-      <div div className={styles.div1}>
+      <div div className={styles.div1} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
         <h2 className={styles.title2}>Landing page</h2>
         <h3 className={styles.title3}>Projet individuel</h3>
         <p className={styles.text}>Dans ce projet, nous devions expérimenter les différentes phases de réalisation d&apos;un projet web. En passant par l&apos;intégration d&apos;une maquette à son passage en production. Effectuer une version responsive sur mobile, tablette et desktop. Et finalement héberger le site sur un serveur public.</p>
@@ -89,7 +90,7 @@ const Projects = () => {
         </div>
       </div>
       {/* Project 3 */}
-      <div div className={styles.div1}>
+      <div div className={styles.div1} data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
         <h2 className={styles.title2}>Agence web</h2>
         <h3 className={styles.title3}>Projet de groupe</h3>
         <p className={styles.text}>Ce projet par groupe de trois, consistait à fonder une agence-web. Les étapes les plus importantes étaient les suivantes:  </p>
@@ -149,7 +150,7 @@ const Projects = () => {
         </div>
       </div>
       {/* Project 4 */}
-      <div div className={styles.div1}>
+      <div div className={styles.div1} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
         <h2 className={styles.title2}>Maze-Bank</h2>
         <h3 className={styles.title3}>Projet individuel</h3>
         <p className={styles.text}>Ce projet individuel avait pour but de créer une application bancaire fictive. Permettant une introduction a Javascript et tout spécialement à la notion d&apos;algorithmie.</p>
@@ -209,7 +210,7 @@ const Projects = () => {
         </div>
       </div>
       {/* Project 5 */}
-      <div div className={styles.div1}>
+      <div div className={styles.div1} data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
         <h2 className={styles.title2}>TP Boutique</h2>
         <h3 className={styles.title3}>Projet de groupe</h3>
         <p className={styles.text}>Projet en lien avec l&apos;agence web. Nous devions créer par groupe de quatre une boutique e-commerce via le CMS Wordpress. </p>
