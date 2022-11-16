@@ -1,6 +1,7 @@
-import "tailwindcss/tailwind.css"
+import "tailwindcss/tailwind.css";
 import { useEffect } from "react";
 import Aos from "aos";
+import { NextUIProvider } from "@nextui-org/react";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -11,7 +12,11 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  return <Component {...pageProps} />
-};
+  return (
+    <NextUIProvider>
+      <Component {...pageProps} />
+    </NextUIProvider>
+  );
+}
 
 export default MyApp;

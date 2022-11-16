@@ -7,12 +7,9 @@ import metadevshop from "@src/assets/img/metadev-shop.png";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import AOS from 'aos';
+import Aos from 'aos';
 import "aos/dist/aos.css";
 
 let styles = {
@@ -29,246 +26,95 @@ let styles = {
 
 const Projects = () => {
   return (
-    <div className={styles.template}>
-      <h1 className={styles.title}>02. Mes projets</h1>
-      {/* Project 1 */}
-      <div className={styles.div1} data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
-        <h2 className={styles.title2}>Intégration wireframe</h2>
-        <h3 className={styles.title3}>Projet de groupe</h3>
-        <p className={styles.text}>Notre tout premier projet par groupe de deux. L&apos;objectif était d&apos;intégrer une maquette préalablement crée.</p>
-        <div className={styles.div1}>
-        <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Elaboration d&apos;un wireframe.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Passage en production.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-        </div>
-        <div className={styles.divImage}>
-        <Image src={wireframe} alt="Wireframe" height="250" width="250"/>
-        </div>
-        <div className={styles.divImage}>
-          <a href="https://github.com/NAWELC/integration-wireframe"><GitHubIcon sx={{ fontSize: 30 }} /></a>
-      <a href="https://priscad.promo-171.codeur.online/landing-page/"><OpenInBrowserIcon sx={{ fontSize: 30 }} /></a>
-        </div>
-      </div>
-      {/* Project 2 */}
-      <div div className={styles.div1} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
-        <h2 className={styles.title2}>Landing page</h2>
-        <h3 className={styles.title3}>Projet individuel</h3>
-        <p className={styles.text}>Dans ce projet, nous devions expérimenter les différentes phases de réalisation d&apos;un projet web. En passant par l&apos;intégration d&apos;une maquette à son passage en production. Effectuer une version responsive sur mobile, tablette et desktop. Et finalement héberger le site sur un serveur public.</p>
-        <div className={styles.divImage}>
-        <Image src={landingpage} alt="landingpage" height="350" wdith="350"/>
-        </div>
-        <div className={styles.divImage}>
-          <a href="https://github.com/PriskaSama/landing-page0"><GitHubIcon sx={{ fontSize: 30 }} /></a>
-          <a href="https://priscad.promo-171.codeur.online/landing-page0/"><OpenInBrowserIcon sx={{ fontSize: 30 }} /></a>
-        </div>
-      </div>
-      {/* Project 3 */}
-      <div div className={styles.div1} data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
-        <h2 className={styles.title2}>Agence web</h2>
-        <h3 className={styles.title3}>Projet de groupe</h3>
-        <p className={styles.text}>Ce projet par groupe de trois, consistait à fonder une agence-web. Les étapes les plus importantes étaient les suivantes:  </p>
-        <div className={styles.div1}>
-        <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Définition de l&apos;identité de l&apos;agence..</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Conception du site.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Développement et hébergement sur Netlify.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-        </div>
-        <div className={styles.divImage}>
-        <Image src={metadev} alt="metadev" height="400" wdith="250"/>
-        </div>
-        <div className={styles.divImage}>
-          <a href="https://github.com/mrp-171/agenceweb171"><GitHubIcon sx={{ fontSize: 30 }} /></a>
-          <a href="https://metadev-mrp.netlify.app/"><OpenInBrowserIcon sx={{ fontSize: 30 }} /></a>
-        </div>
-      </div>
-      {/* Project 4 */}
-      <div div className={styles.div1} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
-        <h2 className={styles.title2}>Maze-Bank</h2>
-        <h3 className={styles.title3}>Projet individuel</h3>
-        <p className={styles.text}>Ce projet individuel avait pour but de créer une application bancaire fictive. Permettant une introduction a Javascript et tout spécialement à la notion d&apos;algorithmie.</p>
-        <div className={styles.div1}>
-        <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Initiation a Javascript.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Développement d&apos;un algorithme.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Production et hébergement sur Netlify.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-        </div>
-        <div className={styles.divImage}>
-        <Image src={mazebank} alt="mazebank" height="250" width="350"/>
-        </div>
-        <div className={styles.divImage}>
-          <a href="https://github.com/PriskaSama/maze-bank"><GitHubIcon sx={{ fontSize: 30 }} /></a>
-          <a href="https://maze-bank-priska.netlify.app/"><OpenInBrowserIcon sx={{ fontSize: 30 }} /></a>
-        </div>
-      </div>
-      {/* Project 5 */}
-      <div div className={styles.div1} data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
-        <h2 className={styles.title2}>TP Boutique</h2>
-        <h3 className={styles.title3}>Projet de groupe</h3>
-        <p className={styles.text}>Projet en lien avec l&apos;agence web. Nous devions créer par groupe de quatre une boutique e-commerce via le CMS Wordpress. </p>
-        <div className={styles.div1}>
-        <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Initiation a Wordpress</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Elaboration d&apos;un wireframe.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Hébergement sur nom de domaine Ionos.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-        </div>
-       <div className={styles.divImage}>
-        <Image src={metadevshop} alt="metadevshop" height="250" width="350"/>
-       </div>
-       <div className={styles.divImage}>
-        <a href="https://metadev-mrp.fr/"><OpenInBrowserIcon sx={{ fontSize: 30 }} /></a>
-       </div>
-      </div>
+<div className={styles.template}>
+  <h1 className={styles.title}>02. Mes projets</h1>
+  {/* PROJET 1 */}
+  <div data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm" >
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h1 class="text-gray-900 text-xl font-medium mb-2">Intégration wireframe
+  </h1>
+  <h2>Projet individuel</h2>
+      <p class="text-gray-700 text-base mb-4" d>
+      Notre tout premier projet par groupe de deux. L&apos;objectif était d&apos;intégrer une maquette préalablement crée.
+
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Voir plus</button>
     </div>
+  </div>
+</div>
+{/* PROJET 2 */}
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h1 class="text-gray-900 text-xl font-medium mb-2">Landing page</h1>
+      <h2>Projet individuel</h2>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+  {/* PROJET 3 */}
+</div>
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h1 class="text-gray-900 text-xl font-medium mb-2">Card title</h1>
+      <h2>Projet individuel</h2>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+{/* PROJET 4 */}
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h1 class="text-gray-900 text-xl font-medium mb-2">Card title</h1>
+      <h2>Projet individuel</h2>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+{/* PROJET 5 */}
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h1 class="text-gray-900 text-xl font-medium mb-2">Card title</h1>
+      <h2>Projet individuel</h2>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+</div>
   );
 };
 

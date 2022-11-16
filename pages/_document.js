@@ -14,10 +14,8 @@ export default function Document() {
       <body className="font-silkscreen">
         <Main />
         <NextScript />
-        <script src="bower_components/aos/dist/aos.js"></script>
-        <script>
-    AOS.init();
-  </script>
+        <script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E"></script>
+        <script defer>AOS.init();</script>
       </body>
     </Html>
   );
