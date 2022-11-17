@@ -27,8 +27,6 @@ const Roadmap = () => {
       <section
         class="text-gray-300 body-font"
         data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
       >
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">

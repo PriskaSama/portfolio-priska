@@ -39,8 +39,6 @@ const Projects = () => {
       <section
         class="text-gray-400 bg-white/75  opacity-75 body-font rounded-xl lg:w-3/5"
         data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className={styles.divImage} class="lg:ml-8">
@@ -88,8 +86,6 @@ const Projects = () => {
       <section
         class="text-gray-400 bg-white/75   body-font rounded-xl hover:scale-125 lg:w-3/5"
         data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
@@ -140,8 +136,6 @@ const Projects = () => {
       <section
         class="text-gray-400 bg-white/75  body-font rounded-xlhover:scale-125 lg:w-3/5 lg:ml-4"
         data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
@@ -193,8 +187,6 @@ const Projects = () => {
       <section
         class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5"
         data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>
@@ -247,8 +239,6 @@ const Projects = () => {
       <section
         class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5"
         data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>

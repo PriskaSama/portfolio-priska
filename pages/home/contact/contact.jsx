@@ -33,8 +33,7 @@ const Contacts = () => {
       <div
         className="container px-5 py-24 mx-auto"
         data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
+  
         
       >
         <div className="flex flex-col text-center w-full mb-12">
