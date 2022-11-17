@@ -41,8 +41,6 @@ const Projects = () => {
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
-        delay="300"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className={styles.divImage} class="lg:ml-8">
@@ -92,8 +90,6 @@ const Projects = () => {
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="350"
-        delay="350"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
@@ -146,8 +142,6 @@ const Projects = () => {
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
-        delay="300"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
@@ -201,8 +195,6 @@ const Projects = () => {
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
-        delay="300"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>
@@ -257,8 +249,6 @@ const Projects = () => {
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
-        delay="300"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>

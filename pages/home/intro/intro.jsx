@@ -32,7 +32,6 @@ const Intro = () => {
       <div
         className={styles.template}
         data-aos="zoom-in"
-        data-aos-duration="1000"
       >
         <div className="text-center lg:flex lg:flex-col lg:items-center lg:pb-8">
           <h1 className={styles.title}>Bonjour, je suis</h1>

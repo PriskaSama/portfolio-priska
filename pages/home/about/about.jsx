@@ -28,7 +28,7 @@ const About = () => {
     // ABOUT ZONE
     <div id="about" className={styles.template}>
       <h2 className={styles.title} id="a-propos">01. A propos</h2>
-      <section class="text-gray-300 body-font" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+      <section class="text-gray-300 body-font" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-left w-full mb-20 lg:text-center">
       <p className={styles.title2}>
