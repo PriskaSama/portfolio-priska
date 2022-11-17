@@ -108,7 +108,7 @@ const Roadmap = () => {
                   professionelle;
                 </p>
                 <p>
-                  J'assiste à de nombreux webinaire pour comprendre les métiers
+                  J&apos;assiste à de nombreux webinaire pour comprendre les métiers
                   du web. j&apos;ai la chance de pouvoir suivre durant une semaine des développeurs front-end à mon travail. Je m&apos;inscris sur Codecademy afin d&apos;apprendre et comprendres les bases en
                   html et css.
                 </p>
