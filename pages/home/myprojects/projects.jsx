@@ -37,7 +37,7 @@ const Projects = () => {
       </h1>
       {/* PROJET 1 */}
       <section
-        class="text-gray-400 bg-white/75  opacity-75 body-font rounded-xl lg:w-3/5"
+        class="text-gray-400 bg-white/75  opacity-75 body-font rounded-xl lg:w-3/5 lg:mb-8"
         data-aos="fade-left"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -84,7 +84,7 @@ const Projects = () => {
       </section>
       {/* PROJET 2 */}
       <section
-        class="text-gray-400 bg-white/75   body-font rounded-xl hover:scale-125 lg:w-3/5"
+        class="text-gray-400 bg-white/75   body-font rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-right"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -134,7 +134,7 @@ const Projects = () => {
       </section>
       {/* PROJET 3 */}
       <section
-        class="text-gray-400 bg-white/75  body-font rounded-xlhover:scale-125 lg:w-3/5 lg:ml-4"
+        class="text-gray-400 bg-white/75  body-font rounded-xlhover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
         data-aos="fade-left"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -185,7 +185,7 @@ const Projects = () => {
       </section>
       {/* PROJET 4 */}
       <section
-        class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5"
+        class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-right"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
@@ -237,7 +237,7 @@ const Projects = () => {
       </section>
       {/* PROJET 5 */}
       <section
-        class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5"
+        class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-left"
       >
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
