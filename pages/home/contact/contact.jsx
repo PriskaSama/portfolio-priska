@@ -45,7 +45,7 @@ const Contacts = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Que ce soit pour me proposer un job, un travail en collaboration ou
-            juste me faire un petit coucou, n'hésitez pas envoyez moi un message
+            juste me faire un petit coucou, n&apos;hésitez pas envoyez moi un message
             😊
           </p>
         </div>

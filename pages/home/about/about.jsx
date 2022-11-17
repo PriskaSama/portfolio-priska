@@ -37,7 +37,7 @@ const About = () => {
       <p>Je suis une dev web junior spécialisé en front-end.</p>
       <p class="text-center">Comme tout développeur j&apos;aime le processus de création, de brainstorming et de recherche (lecture de la Doc) précedant le moment où l&apos;on se retrousse les manches pour passer aux choses sérieuse et coder!</p>
       <p class="text-center">Le développement web est devenu une évidence durant l&apos;année 2020, mais l&apos;informatique en général a toujours été l&apos;une de mes passions les plus chère.</p>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-8 lg:text-lg">Voici un petit aperçu des technologies que j'utilise :</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-8 lg:text-lg">Voici un petit aperçu des technologies que j&apos;utilise :</p>
     </div>
     <div class="flex flex-wrap -m-2">
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
