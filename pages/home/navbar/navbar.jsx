@@ -1,6 +1,5 @@
 import Image from "next/image";
 import priskachill from "@src/assets/img/chill-working.png";
-// import Burger from "@pages/home/burger/burger";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
@@ -11,7 +10,6 @@ let styles = {
     "flex justify-end items-center lg:items-center lg:space-evenly mr-8 my-4 lg:col-span-2",
   divlogo: "flex justify-start",
   spaceul: "mx-12",
-  burgerhidden: "lg:hidden",
   hover: "hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
 };
 
@@ -46,9 +44,6 @@ const Navbar = () => {
             <a href="/docs/CV-PriscaDerville.pdf" class="border border-pink-400 rounded-md px-4 py-2">Mon CV</a>
           </li>
         </ul>
-        {/* <div className={styles.burgerhidden}>
-          <Burger />
-        </div> */}
       </div>
     </nav>
   );

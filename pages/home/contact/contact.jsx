@@ -1,6 +1,5 @@
 import Image from "next/image";
 import contactme from "@src/assets/img/contactme.png";
-import { Checkbox } from "@nextui-org/react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
