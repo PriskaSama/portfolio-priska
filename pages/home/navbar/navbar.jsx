@@ -46,9 +46,9 @@ const Navbar = () => {
             <a href="/docs/CV-PriscaDerville.pdf" class="border border-pink-400 rounded-md px-4 py-2">Mon CV</a>
           </li>
         </ul>
-        <div className={styles.burgerhidden}>
+        {/* <div className={styles.burgerhidden}>
           <Burger />
-        </div>
+        </div> */}
       </div>
     </nav>
   );
