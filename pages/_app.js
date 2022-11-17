@@ -4,6 +4,7 @@ import Aos from "aos";
 import { NextUIProvider } from "@nextui-org/react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
+import Hamburger from 'hamburger-react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

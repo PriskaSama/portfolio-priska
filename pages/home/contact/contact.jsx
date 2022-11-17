@@ -27,7 +27,7 @@ const Contacts = () => {
       <div className={styles.contactpic}>
         <Image src={contactme} alt="contactme" height="180" width="180" />
       </div>
-      <div className="container px-5 py-24 mx-auto" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="200">
+      <div className="container px-5 py-24 mx-auto" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="200">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Contactez moi
@@ -77,7 +77,7 @@ const Contacts = () => {
               </div>
             </div>
             <div className={styles.zoomanim + " " + styles.button1}>
-              <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg">
+              <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none rounded text-lg">
                 Envoyer
               </button>
             </div>

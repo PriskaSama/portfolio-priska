@@ -33,7 +33,7 @@ const Projects = () => {
   <div className={styles.template}>
   <h1 className={styles.title} id="projets">02. Mes projets</h1>
   {/* PROJET 1 */}
-  <section class="text-gray-400 bg-black body-font rounded-xl my-8" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+  <section class="text-gray-400 bg-black body-font rounded-xl my-8 hover:scale-125" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   <div className={styles.divImage}>
         <Image src={wireframe} alt="landingpage" height="720" width="600" className={styles.imgproject}/>
@@ -55,7 +55,7 @@ const Projects = () => {
   </div>
 </section>
 {/* PROJET 2 */}
-<section class="text-gray-400 bg-black  body-font rounded-xl my-8" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+<section class="text-gray-400 bg-black  body-font rounded-xl my-8 hover:scale-125" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   <div className={styles.divImage}>
         <Image src={landingpage} alt="landingpage" height="720" width="720" className={styles.imgproject}/>
@@ -77,7 +77,7 @@ const Projects = () => {
   </div>
 </section>
   {/* PROJET 3 */}
-  <section class="text-gray-400 bg-black body-font rounded-xl my-8" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+  <section class="text-gray-400 bg-black body-font rounded-xl my-8 hover:scale-125" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   <div className={styles.divImage}>
         <Image src={metadev} alt="landingpage" height="600" width="720" className={styles.imgproject}/>
@@ -100,7 +100,7 @@ const Projects = () => {
   </div>
 </section>
 {/* PROJET 4 */}
-<section class="text-gray-400 bg-black body-font rounded-xl my-8" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+<section class="text-gray-400 bg-black body-font rounded-xl my-8 hover:scale-125" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   <div className={styles.divImage}>
         <Image src={mazebank} alt="landingpage" height="600" width="720" className={styles.imgproject}/>
@@ -124,7 +124,7 @@ Initiation a Javascript.</p>
   </div>
 </section>
 {/* PROJET 5 */}
-<section class="text-gray-400 bg-black  body-font rounded-xl my-8" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+<section class="text-gray-400 bg-black  body-font rounded-xl my-8 hover:scale-125" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   <div className={styles.divImage}>
         <Image src={metadevshop} alt="landingpage" height="600" width="720" className={styles.imgproject}/>
