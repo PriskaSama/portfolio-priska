@@ -1,6 +1,6 @@
 import Image from "next/image";
 import priskachill from "@src/assets/img/chill-working.png";
-import Burger from "@pages/home/burger/burger";
+// import Burger from "@pages/home/burger/burger";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {

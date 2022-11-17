@@ -1,6 +1,6 @@
-import Image from "next/image";
-import mermaid from "@src/assets/img/mermaid.png";
-import priskachill from "@src/assets/img/chill-working.png";
+// import Image from "next/image";
+// import mermaid from "@src/assets/img/mermaid.png";
+// import priskachill from "@src/assets/img/chill-working.png";
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 import LocationCityIcon from '@mui/icons-material/LocationCity';
 import BakeryDiningIcon from '@mui/icons-material/BakeryDining';

@@ -2,9 +2,9 @@ import "tailwindcss/tailwind.css";
 import { useEffect } from "react";
 import Aos from "aos";
 import { NextUIProvider } from "@nextui-org/react";
-import { motion, AnimatePresence } from "framer-motion";
-import { useRouter } from "next/router";
-import Hamburger from 'hamburger-react';
+// import { motion, AnimatePresence } from "framer-motion";
+// import { useRouter } from "next/router";
+// import Hamburger from 'hamburger-react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -15,28 +15,28 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  const router = useRouter();
+  // const router = useRouter();
   return (
-    <AnimatePresence exitBeforeEnter>
-      <motion.div key={router.route} initial="initialState" animate="animateState" exit="exitState" 
-      transition={{
-        duration: 0.75,
-      }}
-      variants={{
-        initialState: {
+    // <AnimatePresence exitBeforeEnter>
+    //   <motion.div key={router.route} initial="initialState" animate="animateState" exit="exitState" 
+    //   transition={{
+    //     duration: 0.75,
+    //   }}
+    //   variants={{
+    //     initialState: {
           
-        },
-        animateState: {
+    //     },
+    //     animateState: {
 
-        },
-        exitState: {
+    //     },
+    //     exitState: {
 
-        },
-      }}
-      className= "base-page-size">
+    //     },
+    //   }}
+    //   className= "base-page-size">
       <Component {...pageProps} />
-      </motion.div>
-    </AnimatePresence>
+    //   </motion.div>
+    // </AnimatePresence>
   );
 }
 

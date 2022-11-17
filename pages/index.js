@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import favicon from "../public/favicon.ico";
 // import { motion } from "framer-motion";
 

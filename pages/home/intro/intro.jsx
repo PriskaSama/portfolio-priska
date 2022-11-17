@@ -3,7 +3,7 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 import { TypeAnimation } from "react-type-animation";
 
