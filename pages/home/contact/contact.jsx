@@ -3,16 +3,18 @@ import contactme from "@src/assets/img/contactme.png";
 import { Checkbox } from "@nextui-org/react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
+import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
+import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
-  template: "grid text-left px-8 py-12 text-gray-600 body-font relative",
+  template: "font-roboto grid text-left px-8 py-12 text-gray-600 body-font relative",
   title: "text-2xl uppercase underline pb-20 text-gray-900",
   intro: "py-4",
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
   iconsSpace: "ml-4",
-  zoomanim: "transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-pink-400 cursor-pointer",
+  zoomanim:
+    "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-500",
   button1: "p-2 w-full",
   iconsSpace: "ml-4",
   animateBounce: "animate-bounce w-6 h-6 ml-12",
@@ -23,17 +25,28 @@ const Contacts = () => {
     // CONTACT DETAILS + FORM TO ADD
 
     <section className={styles.template}>
-      <h1 id="contact" className={styles.title}>05. Contact</h1>
-      <div className={styles.contactpic}>
+      <h1 id="contact" className={styles.title}>
+        05. Contact
+      </h1>
+      {/* <div className={styles.contactpic}>
         <Image src={contactme} alt="contactme" height="180" width="180" />
-      </div>
-      <div className="container px-5 py-24 mx-auto" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="200">
+      </div> */}
+      <div
+        className="container px-5 py-24 mx-auto"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
+        delay="200"
+      >
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Contactez moi
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Que ce soit pour me proposer un job, un travail en collaboration ou juste me faire un petit coucou, n'hésitez pas envoyez moi un message 😊
+            Que ce soit pour me proposer un job, un travail en collaboration ou
+            juste me faire un petit coucou, n'hésitez pas envoyez moi un message
+            😊
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -66,7 +79,10 @@ const Contacts = () => {
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label for="message" className="leading-7 text-sm text-gray-600">
+                <label
+                  for="message"
+                  className="leading-7 text-sm text-gray-600"
+                >
                   Message
                 </label>
                 <textarea
@@ -77,35 +93,42 @@ const Contacts = () => {
               </div>
             </div>
             <div className={styles.zoomanim + " " + styles.button1}>
-              <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none rounded text-lg">
+              <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none rounded text-lg hover:scale-125 hover:ease-in hover:duration-300 hover:text-black">
                 Envoyer
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <a className="text-pink-500">contact@derville-portfolio.fr</a>
-              <p className="leading-normal my-5">
-                77100, Meaux (France)
-              </p>
+              <p className="leading-normal my-5">77100, Meaux (France)</p>
               <span className="inline-flex">
-              <div className={styles.icons}>
-           <a href="https://www.linkedin.com/in/dervilleprisca/" className={styles.iconsSpace + " " + styles.zoomanim}>
-            <LinkedInIcon sx={{ fontSize: 30 }} /> 
-           </a>
-           <a href="https://github.com/PriskaSama" className={styles.iconsSpace + " " + styles.zoomanim}>
-           <GitHubIcon sx={{ fontSize: 30 }} />
-           </a>
-        </div>
+                <div className={styles.icons}>
+                  <a
+                    href="https://www.linkedin.com/in/dervilleprisca/"
+                    className={styles.iconsSpace + " " + styles.zoomanim}
+                  >
+                    <LinkedInIcon sx={{ fontSize: 30 }} />
+                  </a>
+                  <a
+                    href="https://github.com/PriskaSama"
+                    className={styles.iconsSpace + " " + styles.zoomanim}
+                  >
+                    <GitHubIcon sx={{ fontSize: 30 }} />
+                  </a>
+                </div>
               </span>
             </div>
           </div>
         </div>
       </div>
-        <div>
-          <KeyboardDoubleArrowUpIcon className={styles.animateBounce + " " + styles.zoomanim}/>
-          <p className={styles.intro}>Retour vers le haut</p>
-        </div>
+      <div class="flex justify-end">
+        <AnchorLink href="#nav">
+          <KeyboardDoubleArrowUpIcon
+            className={styles.animateBounce + " " + styles.zoomanim}
+          />
+        </AnchorLink>
+        {/* <p className={styles.intro}>Retour vers le haut</p> */}
+      </div>
     </section>
-    
   );
 };
 

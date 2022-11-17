@@ -1,7 +1,7 @@
 let styles = {
-  template1: "bg-black w-full mt-auto h-28 flex justify-center items-center ",
+  template1: "bg-black w-full mt-auto h-28 flex justify-center items-center",
   template2: "text-white text-center",
-}
+};
 
 const Footer = () => {
   return (
@@ -9,7 +9,14 @@ const Footer = () => {
       <div className={styles.template2}>
         <div>
           <p>
-            © 2022 - Priska Derville
+            © 2022 -{" "}
+            <a
+              href="https://linkedin.com/in/dervilleprisca"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Priska Derville
+            </a>
           </p>
           <p>Made with my blood & tears🩸😭</p>
         </div>

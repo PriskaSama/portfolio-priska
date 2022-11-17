@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         silkscreen: ["silkscreen", "cursive"],
+        roboto: ["roboto", "sans-serif"],
       },
     },
   },

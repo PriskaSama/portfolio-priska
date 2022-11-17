@@ -7,7 +7,7 @@ import HomePage from "@pages/home";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Head>
         <title>Portfolio-Priska</title>
         <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />

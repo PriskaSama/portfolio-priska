@@ -1,14 +1,26 @@
 import Image from "next/image";
 import priskachill from "@src/assets/img/chill-working.png";
+import bootstrap from "@src/assets/img/bootstrap.webp";
+import symfony from "@src/assets/img/symfony.svg";
+import react from "@src/assets/img/react.webp";
+import tailwind from "@src/assets/img/tailwind.webp";
+import wordpress from "@src/assets/img/wordpress.webp";
+import php from "@src/assets/img/php.png";
+import js from "@src/assets/img/js.png";
+import css from "@src/assets/img/css.png";
+import html from "@src/assets/img/html.png";
+import next from "next";
 
 let styles = {
-  template: "grid text-left px-8 py-12 bg-black text-white",
+  template: "grid text-left px-8 py-12 bg-black text-white font-roboto",
   skills: "grid grid-cols-2 gap-8 list-none uppercase py-20",
   profilepic: "flex justify-center py-8",
   title: "text-2xl uppercase underline pb-20",
   spacebtw: "mt-8",
-  title2: "text-xl uppercase pb-20 lg:text-3xl text-gray-200",
+  title2: "text-xl uppercase pb-20 lg:text-3xl text-gray-200 text-pink-400",
   hoverzoom: "hover:scale-100",
+  img: "w-16 h-16 bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
+  img2: "bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
 };
 
 const About = () => {
@@ -16,91 +28,91 @@ const About = () => {
     // ABOUT ZONE
     <div id="about" className={styles.template}>
       <h2 className={styles.title} id="a-propos">01. A propos</h2>
-      <section class="text-gray-300 body-font" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
+      <section class="text-gray-300 body-font" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" delay="300">
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-left w-full mb-20 lg:text-center">
       <p className={styles.title2}>
-        Salut! Moi c&apos;est Priska - LOREM
+        Hello world! Moi c&apos;est Prisca
       </p>
-      <p>TOOLS UTILISES</p>
-      <p>Ce que je fais aujourd&apos;hui, ce que je cherche</p>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-8">Voici la stack technique sur laquelle je travail:</p>
+      <p>Je suis une dev web junior spécialisé en front-end.</p>
+      <p class="text-center">Comme tout développeur j&apos;aime le processus de création, de brainstorming et de recherche (lecture de la Doc) précedant le moment où l&apos;on se retrousse les manches pour passer aux choses sérieuse et coder!</p>
+      <p class="text-center">Le développement web est devenu une évidence durant l&apos;année 2020, mais l&apos;informatique en général a toujours été l&apos;une de mes passions les plus chère.</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-8 lg:text-lg">Voici un petit aperçu des technologies que j'utilise :</p>
     </div>
     <div class="flex flex-wrap -m-2">
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80"></img>
+        <div class="h-full flex items-center shadow-md shadow-pink-500/50 border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+          <Image src={html} alt="html" className={styles.img} height="60" width="60"/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">HTML</h2>
+            <h2 class="text-gray-200 title-font font-medium ml-4">HTML</h2>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={css} alt="css" className={styles.img} height="60" width="60"/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">CSS</h2>
-            <p class="text-gray-300">SASS</p>
+            <h2 class="text-gray-200 title-font font-medium ml-4">CSS</h2>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={js} alt="js" className={styles.img} height="60" width="60"/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">JAVASCRIPT</h2>
+            <h2 class="text-gray-200 title-font font-medium ml-4">JAVASCRIPT</h2>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={php} alt="php" className={styles.img} height="70" width="60"/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">PHP</h2>
-            <p>MySQL</p>
+            <h2 class="text-gray-200 title-font font-medium ml-4">PHP</h2>
+            <p className="ml-4">MySQL</p>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={wordpress} alt="wordpress" className={styles.img}/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">WORDPRESS</h2>
+            <h2 class="text-gray-200 title-font font-medium ml-4">WORDPRESS</h2>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={tailwind} alt="tailwind" className={styles.img}/>
           <div class="flex-grow">
-            <h2 class="text-gray-200title-font font-medium">TAILWIND CSS</h2>
+            <h2 class="text-gray-200title-font font-medium ml-4">TAILWIND CSS</h2>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={react} alt="react" className={styles.img} height="60" width="60" />
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">NODE.JS</h2>
-            <p class="text-gray-300">REACT.JS</p>
-            <p class="text-gray-300">NEXT.JS</p>
+            <h2 class="text-gray-200 title-font font-medium ml-4">NODE.JS</h2>
+            <p class="text-gray-300 ml-4">REACT.JS</p>
+            <p class="text-gray-300 ml-4">NEXT.JS</p>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-300 lg:h-4/8 hover:bg-pink-800">
+        <Image src={symfony} alt="symfony" className={styles.img2} height="60" width="60"/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">SYMFONY</h2>
-            <p class="text-gray-300">EXPRESS.JS</p>
+            <h2 class="text-gray-200 title-font font-medium ml-4">SYMFONY</h2>
+            <p class="text-gray-300 ml-4">EXPRESS.JS</p>
           </div>
         </div>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110">
-          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98"></img>
+        <div class="h-full flex items-center border-pink-400 border p-4 rounded-lg hover:scale-110 hover:ease-in shadow-md shadow-pink-500/50 hover:duration-30 lg:h-4/8 hover:bg-pink-800">
+        <Image src={bootstrap} alt="bootstrap" className={styles.img}/>
           <div class="flex-grow">
-            <h2 class="text-gray-200 title-font font-medium">BOOTSTRAP</h2>
+            <h2 class="text-gray-200 title-font font-medium ml-4">BOOTSTRAP</h2>
           </div>
         </div>
       </div>
