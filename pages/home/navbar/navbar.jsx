@@ -1,10 +1,11 @@
 import Image from "next/image";
-import priskaxcat from "@src/assets/img/grumpy.png"
+import priskaxcat from "@src/assets/img/grumpy.png";
+import { Fade as Hamburger } from 'hamburger-react';
 
 let styles = {
   navbar: "bg-black text-white h-auto grid grid-cols-2",
   ul: "uppercase flex flex-col",
-  logo: "h-auto w-24 lg:w-80 ml-8 mt-8",
+  logo: "h-auto w-24 lg:w-40 ml-8 mt-8",
   divnav: "flex justify-end mr-8 my-4",
   divlogo: "flex justify-start",
 };
@@ -20,16 +21,16 @@ const Navbar = () => {
       <div className={styles.divnav}>
         <ul className={styles.ul}>
           <li>
-            <a href="#">Accueil</a>
+            <a id="home">Accueil</a>
           </li>
           <li>
-            <a href="#apropos">A propos</a>
+            <a href="#a-propos">A propos</a>
           </li>
           <li>
             <a href="#projets">Projets</a>
           </li>
           <li>
-            <a href="#contact">Mon parcours</a>
+            <a href="#mon-parcours">Mon parcours</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

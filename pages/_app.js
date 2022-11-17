@@ -2,6 +2,8 @@ import "tailwindcss/tailwind.css";
 import { useEffect } from "react";
 import Aos from "aos";
 import { NextUIProvider } from "@nextui-org/react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -12,10 +14,28 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
+  const router = useRouter();
   return (
-    <NextUIProvider>
+    <AnimatePresence exitBeforeEnter>
+      <motion.div key={router.route} initial="initialState" animate="animateState" exit="exitState" 
+      transition={{
+        duration: 0.75,
+      }}
+      variants={{
+        initialState: {
+          
+        },
+        animateState: {
+
+        },
+        exitState: {
+
+        },
+      }}
+      className= "base-page-size">
       <Component {...pageProps} />
-    </NextUIProvider>
+      </motion.div>
+    </AnimatePresence>
   );
 }
 

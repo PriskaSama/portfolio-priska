@@ -12,8 +12,8 @@ let styles = {
 const About = () => {
   return (
     // ABOUT ZONE
-    <div className={styles.template}>
-      <h2 className={styles.title}>01. A propos</h2>
+    <div id="about" className={styles.template}>
+      <h2 className={styles.title} id="a-propos">01. A propos</h2>
       <p>
         Salut! Moi c&apos;est Priska - expliquer le commencement et ce que je
         faisais.
