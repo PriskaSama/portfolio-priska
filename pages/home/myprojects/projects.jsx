@@ -63,7 +63,7 @@ const Projects = () => {
             <h2 className={styles.title2}>Projet de groupe</h2>
             <p class="mb-8 leading-relaxed">
               Notre tout premier projet par groupe de deux. L&apos;objectif
-              était d&apos;intégrer une maquette préalablement crée avec Figma. Et de créer une interface web simple afin d'intégrer celle-ci.
+              était d&apos;intégrer une maquette préalablement crée avec Figma. Et de créer une interface web simple afin d&apos;intégrer celle-ci.
             </p>
             <li class="mb-2 leading-relaxed">Elaboration d&apos;un wireframe.</li>
             <li class="mb-8 leading-relaxed">Passage en production.</li>
@@ -165,7 +165,7 @@ const Projects = () => {
             <li class="mb-2 leading-relaxed">
               Définition de l&apos;identité de l&apos;agence.
             </li>
-            <li class="mb-2 leading-relaxed">Elaboration d'un cahier des charges.</li>
+            <li class="mb-2 leading-relaxed">Elaboration d&apos;un cahier des charges.</li>
             <li class="mb-2 leading-relaxed">Conception du site en suivant la méthode Kanban.</li>
             <li class="leading-relaxed">
               Développement en local et hébergement sur Netlify.
@@ -214,7 +214,7 @@ const Projects = () => {
               Ce projet individuel avait pour but de créer une application
               bancaire fictive. Permettant des dépôts, retrait et virement d'argent.
             </p>
-            <p class="mb-8 leading-relaxed">Ce projet m'a permis de comprendre à quel point et pourquoi Javascript est un puissant language de programmation. Mais également une réelle première introduction à la notion d&apos;algorithmie.</p>
+            <p class="mb-8 leading-relaxed">Ce projet m&apos;a permis de comprendre à quel point et pourquoi Javascript est un puissant language de programmation. Mais également une réelle première introduction à la notion d&apos;algorithmie.</p>
             <li class="my-2 leading-relaxed">
               Développement d&apos;une interface utilisateur.
             </li>
@@ -268,10 +268,10 @@ const Projects = () => {
               Projet en lien avec l&apos;agence web. Nous devions créer par
               groupe de quatre une boutique e-commerce via le CMS Wordpress. Proposant nos services préalablement décris sur notre site web ainsi que des produits dérivés.
             </p>
-            <p class="mb-8 leading-relaxed">J'ai également crée une page Linkedin active pour ce projet.</p>
+            <p class="mb-8 leading-relaxed">J&apos;ai également crée une page Linkedin active pour ce projet.</p>
             <li class="mb-2 leading-relaxed">Elaboration d&apos;un wireframe.</li>
             <li class="mb-2 leading-relaxed">Initiation a Wordpress et PHP.</li>
-            <li class="mb-2 leading-relaxed">Mise à jour du cahier des charges de l'agence web.</li>
+            <li class="mb-2 leading-relaxed">Mise à jour du cahier des charges de l&apos;agence web.</li>
             <li class="mb-2 leading-relaxed">
               Hébergement sur nom de domaine Ionos.
             </li>

@@ -95,8 +95,8 @@ const Roadmap = () => {
                   Mai 2020
                 </h2>
                 <p class="leading-relaxed">
-                  Je suis Team Lead en relation client à Londres. J'apprécie cette nouvelle expérience et mon poste me plaît, mais je continue toujours à réfléchir à mes véritables passions et comment je pourrais en faire des métiers concret. L&apos;épidémie
-                  Covid-19 frappe de plein fouet le monde.
+                  Je suis Team Lead en relation client à Londres. J&apos;apprécie cette nouvelle expérience et mon poste me plaît, mais je continue toujours à réfléchir à mes véritables passions et comment je pourrais en faire des métiers concret. L&apos;épidémie
+                  Covid-19 est la.
                 </p>
                 <p class="pt-2">
                   C&apos;est à ce moment précis en étant en télétravail chez moi que
@@ -181,7 +181,7 @@ const Roadmap = () => {
                   j&apos;apprends grâce à une pédagogie inversé le métier de
                   développeur web full stack au travers de nombreux projets et technologies.
                 </p>
-                <p class="pt-2">Cela a été un véritable tremplin dans cette nouvelle aventure que j'ai décidé de poursuivre.</p>
+                <p class="pt-2">Cela a été un véritable tremplin dans cette nouvelle aventure que j&apos;ai décidé de poursuivre.</p>
               </div>
             </div>
           </div>
