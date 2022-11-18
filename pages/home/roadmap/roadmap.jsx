@@ -142,7 +142,7 @@ const Roadmap = () => {
                   Je décide de démissioner de mon poste à Londres.
                   <p class="pt-2">Je retourne
                   m&apos;installer en France afin de poursuivre mes recherches pour
-                  trouver une formation adéquate qui me permettra de développer les compétances nécessaires demandés sur le marché du travail. Je continue à suivre les webinaires de différentes écoles et centres de formation afin de trouver celle qui me correspondrait le mieux en fonction de la méthode d'enseignement.
+                  trouver une formation adéquate qui me permettra de développer les compétances nécessaires demandés sur le marché du travail. Je continue à suivre les webinaires de différentes écoles et centres de formation afin de trouver celle qui me correspondrait le mieux en fonction de la méthode d&apos;enseignement.
                   </p>
                 </p>
               </div>

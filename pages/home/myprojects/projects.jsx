@@ -212,7 +212,7 @@ const Projects = () => {
             <h2 className={styles.title2}>Projet individuel</h2>
             <p class="mb-2 leading-relaxed">
               Ce projet individuel avait pour but de créer une application
-              bancaire fictive. Permettant des dépôts, retrait et virement d'argent.
+              bancaire fictive. Permettant des dépôts, retrait et virement d&apos;argent.
             </p>
             <p class="mb-8 leading-relaxed">Ce projet m&apos;a permis de comprendre à quel point et pourquoi Javascript est un puissant language de programmation. Mais également une réelle première introduction à la notion d&apos;algorithmie.</p>
             <li class="my-2 leading-relaxed">
