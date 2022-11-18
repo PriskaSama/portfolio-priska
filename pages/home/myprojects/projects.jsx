@@ -19,6 +19,7 @@ let styles = {
   title2: "text-2xl text-gray-500 mb-12",
   title3: "text-lg italic",
   title4: "text-xl uppercase pb-20 lg:text-3xl text-gray-200 text-pink-400",
+  title5: "text-xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300",
   tasks: "list-none mt-8",
   div1:"py-4",
   divImage: "py-14 flex justify-center",
@@ -36,8 +37,8 @@ const Projects = () => {
       <h1 className={styles.title} id="projets">
         <span class="text-pink-600 pr-1">02.</span>Mes projets
       </h1>
-      <div>
-        <h2>Petit tour des principaux projets</h2>
+      <div className={styles.title5}>
+        <h2>Petit tour des principaux projets.</h2>
       </div>
       {/* PROJET 1 */}
       <section
@@ -62,11 +63,11 @@ const Projects = () => {
             <h2 className={styles.title2}>Projet de groupe</h2>
             <p class="mb-8 leading-relaxed">
               Notre tout premier projet par groupe de deux. L&apos;objectif
-              était d&apos;intégrer une maquette préalablement crée avec Figma.
+              était d&apos;intégrer une maquette préalablement crée avec Figma. Et de créer une interface web simple afin d'intégrer celle-ci.
             </p>
             <li class="mb-2 leading-relaxed">Elaboration d&apos;un wireframe.</li>
             <li class="mb-8 leading-relaxed">Passage en production.</li>
-            <p class="mt-8 italic">Webpack / TailwindCSS/ Netlify</p>
+            <p class="mt-8 italic font-bold">Webpack / TailwindCSS/ Netlify</p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a
@@ -107,16 +108,17 @@ const Projects = () => {
               Landing page
             </h1>
             <h2 className={styles.title2}>Projet individuel</h2>
-            <p class="mb-8 leading-relaxed">
+            <p class="leading-relaxed">
               Dans ce projet, nous devions expérimenter les différentes phases
               de réalisation d&apos;un projet web. En passant par
               l&apos;intégration d&apos;une maquette à son passage en
-              production. Effectuer une version responsive sur mobile, tablette
-              et desktop. Et finalement héberger le site sur un serveur public.
+              production.
             </p>
+            <p class="mb-8">Effectuer une version responsive sur mobile, tablette
+              et desktop. Et finalement héberger le site sur un serveur public.</p>
             <li class="mb-2 leading-relaxed">Elaboration d&apos;un wireframe.</li>
             <li class="mb-8 leading-relaxed">Passage en production.</li>
-            <p class="mt-8 italic">Boostrap / TailwindCSS</p>
+            <p class="mt-8 italic font-bold">Bootstrap / TailwindCSS</p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a
@@ -157,17 +159,18 @@ const Projects = () => {
             </h1>
             <h2 className={styles.title2}>Projet de groupe</h2>
             <p class="mb-8 leading-relaxed">
-              Ce projet par groupe de trois, consistait à fonder une agence-web fictive. Proposant divers service.
+              Ce projet par groupe de trois, consistait à fonder une agence-web fictive. Proposant divers services tel que création de site web, réferencement SEO/SEA.
               Les étapes les plus importantes étaient les suivantes:
             </p>
             <li class="mb-2 leading-relaxed">
-              Définition de l&apos;identité de l&apos;agence
+              Définition de l&apos;identité de l&apos;agence.
             </li>
-            <li class="mb-2 leading-relaxed">Conception du site.</li>
+            <li class="mb-2 leading-relaxed">Elaboration d'un cahier des charges.</li>
+            <li class="mb-2 leading-relaxed">Conception du site en suivant la méthode Kanban.</li>
             <li class="leading-relaxed">
-              Développement et hébergement sur Netlify.
+              Développement en local et hébergement sur Netlify.
             </li>
-            <p class="mt-8 italic">Webpack / TailwindCSS/ Netlify / Figma</p>
+            <p class="mt-8 italic font-bold">Webpack / TailwindCSS/ Netlify / Figma</p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a
@@ -207,19 +210,21 @@ const Projects = () => {
               Maze-Bank
             </h1>
             <h2 className={styles.title2}>Projet individuel</h2>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-2 leading-relaxed">
               Ce projet individuel avait pour but de créer une application
-              bancaire fictive. Permettant une introduction a Javascript et tout
-              spécialement à la notion d&apos;algorithmie. Initiation a
-              Javascript.
+              bancaire fictive. Permettant des dépôts, retrait et virement d'argent.
             </p>
+            <p class="mb-8 leading-relaxed">Ce projet m'a permis de comprendre à quel point et pourquoi Javascript est un puissant language de programmation. Mais également une réelle première introduction à la notion d&apos;algorithmie.</p>
+            <li class="my-2 leading-relaxed">
+              Développement d&apos;une interface utilisateur.
+            </li>
             <li class="mb-2 leading-relaxed">
               Développement d&apos;un algorithme.
             </li>
             <li class="leading-relaxed">
               Production et hébergement sur Netlify.
             </li>
-            <p class="mt-8 italic">Webpack / Javascript / Tailwind CSS / Netlify </p>
+            <p class="mt-8 italic font-bold">Webpack / Javascript / Tailwind CSS / Netlify </p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a
@@ -259,16 +264,18 @@ const Projects = () => {
               TP Boutique
             </h1>
             <h2 className={styles.title2}>Projet de groupe</h2>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-2 leading-relaxed">
               Projet en lien avec l&apos;agence web. Nous devions créer par
-              groupe de quatre une boutique e-commerce via le CMS Wordpress.
+              groupe de quatre une boutique e-commerce via le CMS Wordpress. Proposant nos services préalablement décris sur notre site web ainsi que des produits dérivés.
             </p>
-            <li class="mb-2 leading-relaxed">Initiation a Wordpress</li>
+            <p class="mb-8 leading-relaxed">J'ai également crée une page Linkedin active pour ce projet.</p>
             <li class="mb-2 leading-relaxed">Elaboration d&apos;un wireframe.</li>
+            <li class="mb-2 leading-relaxed">Initiation a Wordpress et PHP.</li>
+            <li class="mb-2 leading-relaxed">Mise à jour du cahier des charges de l'agence web.</li>
             <li class="mb-2 leading-relaxed">
               Hébergement sur nom de domaine Ionos.
             </li>
-            <p class="mt-8 italic">Wordpress / Elementor / Ionos</p>
+            <p class="mt-8 italic font-bold">Wordpress / Elementor / Ionos</p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a

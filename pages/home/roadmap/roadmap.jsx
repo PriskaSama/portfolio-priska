@@ -22,7 +22,7 @@ const Roadmap = () => {
         <span class="pr-2 text-pink-500"> 03.</span>Mon parcours
       </h1>
       <div className={styles.img}>
-        <h1 class="text-pink-500 uppercase text-3xl text-center">Comment j&apos;en suis arrivée là?</h1>
+        <h1 class="text-xl pb-20 lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Comment j&apos;en suis arrivée là? (version courte)</h1>
       </div>
       <section
         class="text-gray-300 body-font"
@@ -56,13 +56,13 @@ const Roadmap = () => {
                   Aout 2017
                 </h2>
                 <p class="leading-relaxed">
-                  Je termine mes études en commerce international à l&apos;université
+                  Je termine ma licence en commerce international à l&apos;université
                   de la Sorbonne Nouvelle sur Paris.
                 </p>
                 <p class="pt-2">
-                  A la suite de cela, ne sachant pas dans quel métier me lancer et m&apos;appercevant que finallement je n&apos;appréciais pas vraiment le secteur du commerce car celui-ci ne m&apos;offrait pas assez de créativité, de challenges et d&apos;opportunités en géneral et sur une base quotidienne.
+                  A la suite de cela, ne sachant pas dans quel métier spécifique me lancer et m&apos;appercevant que finallement je n&apos;appréciais pas vraiment le secteur du commerce car celui-ci ne m&apos;offrait pas assez de créativité, de challenges et d&apos;opportunités en géneral.
                   <p class="pt-2">
-                  Je souhaitais aussi améliorer mes compétances en anglais; J&apos;ai donc décidé de tout quitter pour m&apos;installer à Londres quelques années afin de mûrir mon projet professionel.
+                  Je souhaitais également améliorer mes compétances en anglais oral; Ainsi j&apos;ai donc décidé de tout quitter pour partir m&apos;installer à Londres quelques années afin de mûrir mon projet professionel.
                   </p>
                 </p>
               </div>
@@ -95,7 +95,7 @@ const Roadmap = () => {
                   Mai 2020
                 </h2>
                 <p class="leading-relaxed">
-                  Je suis Team Lead en relation client à Londres. L&apos;épidémie
+                  Je suis Team Lead en relation client à Londres. J'apprécie cette nouvelle expérience et mon poste me plaît, mais je continue toujours à réfléchir à mes véritables passions et comment je pourrais en faire des métiers concret. L&apos;épidémie
                   Covid-19 frappe de plein fouet le monde.
                 </p>
                 <p class="pt-2">
@@ -105,8 +105,8 @@ const Roadmap = () => {
                 </p>
                 <p class="pt-2">
                   J&apos;assiste à de nombreux webinaire pour comprendre les métiers
-                  du web. j&apos;ai la chance de pouvoir suivre durant une semaine des développeurs front-end à mon travail. Je m&apos;inscris sur Codecademy afin d&apos;apprendre et comprendres les bases en
-                  html et css.
+                  du web. j&apos;ai la chance de pouvoir suivre durant une semaine des développeurs front-end à mon travail et comprendre en quoi consiste le métier. Je m&apos;inscris sur Codecademy afin d&apos;apprendre et comprendres les bases en
+                  HTML et CSS.
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ const Roadmap = () => {
                   Je décide de démissioner de mon poste à Londres.
                   <p class="pt-2">Je retourne
                   m&apos;installer en France afin de poursuivre mes recherches pour
-                  trouver une formation adéquate qui me permettra de développer les compétances nécessaires sur le marché du travail. Je continue à suivre des webinaires et me renseigne sur les réalités du métiers tout en m'initiant au html et css avec Codecademy.
+                  trouver une formation adéquate qui me permettra de développer les compétances nécessaires demandés sur le marché du travail. Je continue à suivre les webinaires de différentes écoles et centres de formation afin de trouver celle qui me correspondrait le mieux en fonction de la méthode d'enseignement.
                   </p>
                 </p>
               </div>
@@ -176,12 +176,12 @@ const Roadmap = () => {
                   Juin 2022
                 </h2>
                 <p class="leading-relaxed pt-2">
-                  Je trouve enfin ma formation en développement web au centre de
+                  Je trouve enfin ma formation en développement web fullstack au centre de
                   formation de l&apos;ACS (Access Code School) à Meaux. Là bas,
                   j&apos;apprends grâce à une pédagogie inversé le métier de
                   développeur web full stack au travers de nombreux projets et technologies.
                 </p>
-                <p class="pt-2">Cela a été un véritable tremplin.</p>
+                <p class="pt-2">Cela a été un véritable tremplin dans cette nouvelle aventure que j'ai décidé de poursuivre.</p>
               </div>
             </div>
           </div>

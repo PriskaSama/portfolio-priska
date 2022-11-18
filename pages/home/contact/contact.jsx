@@ -37,11 +37,11 @@ const Contacts = () => {
         
       >
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="text-xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300">
             Contactez moi
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Que ce soit pour me proposer un job, un travail en collaboration ou
+            Que ce soit pour me proposer un job, un projet en collaboration ou
             juste me faire un petit coucou, n&apos;hésitez pas envoyez moi un message
             😊
           </p>

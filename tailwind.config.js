@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         silkscreen: ["silkscreen", "cursive"],
         roboto: ["roboto", "sans-serif"],
+        montez: ["montez", "cursive"],
       },
     },
   },
