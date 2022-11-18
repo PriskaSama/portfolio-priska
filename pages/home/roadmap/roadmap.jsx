@@ -8,7 +8,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 let styles = {
   template: "grid text-left bg-black text-white px-8 py-12 font-roboto",
-  title: "uppercase underline pb-20 text-2xl",
+  title: "uppercase pb-20 text-2xl",
   img: "flex justify-center py-8",
   text: "py-12",
   space: "py-4",
@@ -19,10 +19,10 @@ const Roadmap = () => {
     // ROADMAP, SUMMARIZE CV
     <main className={styles.template}>
       <h1 className={styles.title} id="mon-parcours">
-        03. Mon parcours
+        <span class="pr-2 text-pink-500"> 03.</span>Mon parcours
       </h1>
       <div className={styles.img}>
-        <h1 class="text-pink-500 uppercase text-3xl">Comment j&apos;en suis arrivée là?</h1>
+        <h1 class="text-pink-500 uppercase text-3xl text-center">Comment j&apos;en suis arrivée là?</h1>
       </div>
       <section
         class="text-gray-300 body-font"
@@ -51,18 +51,18 @@ const Roadmap = () => {
                 </svg> */}
                 <FlightTakeoffIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 hover:bg-pink-800 rounded-lg ">
+              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800 rounded-lg">
                 <h2 class="font-medium title-font text-pink-500 mb-1 text-xl">
                   Aout 2017
                 </h2>
                 <p class="leading-relaxed">
                   Je termine mes études en commerce international à l&apos;université
-                  de la Sorbonne nouvelle.
+                  de la Sorbonne Nouvelle sur Paris.
                 </p>
-                <p>
-                  A la suite de cela, ne sachant pas trop dans quoi me lancer et m&apos;appercevant que finallement je n&apos;aime pas le secteur du commerce. Le domaine dans lequel j&apos;étais ne m&apos;offrait pas assez de créativité, de challenge et d&apos;opportunités en géneral.
-                  <p>
-                  Je souhaitais aussi améliorer mes compétances en anglais; J&apos;ai donc décidé de tout quitter pour m&apos;installer à Londres quelques années.
+                <p class="pt-2">
+                  A la suite de cela, ne sachant pas dans quel métier me lancer et m&apos;appercevant que finallement je n&apos;appréciais pas vraiment le secteur du commerce car celui-ci ne m&apos;offrait pas assez de créativité, de challenges et d&apos;opportunités en géneral et sur une base quotidienne.
+                  <p class="pt-2">
+                  Je souhaitais aussi améliorer mes compétances en anglais; J&apos;ai donc décidé de tout quitter pour m&apos;installer à Londres quelques années afin de mûrir mon projet professionel.
                   </p>
                 </p>
               </div>
@@ -90,7 +90,7 @@ const Roadmap = () => {
                 </svg> */}
                 <LocationCityIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 hover:bg-pink-800 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800 rounded-lg">
                 <h2 class="font-medium title-font text-pink-500 mb-1 text-xl">
                   Mai 2020
                 </h2>
@@ -98,12 +98,12 @@ const Roadmap = () => {
                   Je suis Team Lead en relation client à Londres. L&apos;épidémie
                   Covid-19 frappe de plein fouet le monde.
                 </p>
-                <p>
+                <p class="pt-2">
                   C&apos;est à ce moment précis en étant en télétravail chez moi que
                   je décide de me focaliser sur ma futur carrière
                   professionelle;
                 </p>
-                <p>
+                <p class="pt-2">
                   J&apos;assiste à de nombreux webinaire pour comprendre les métiers
                   du web. j&apos;ai la chance de pouvoir suivre durant une semaine des développeurs front-end à mon travail. Je m&apos;inscris sur Codecademy afin d&apos;apprendre et comprendres les bases en
                   html et css.
@@ -134,15 +134,15 @@ const Roadmap = () => {
                 </svg> */}
                 <BakeryDiningIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 hover:bg-pink-800 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800/95 rounded-lg">
                 <h2 class="font-medium title-font text-pink-500 mb-1 text-xl">
                   Novembre 2021
                 </h2>
-                <p class="leading-relaxed">
+                <p class="leading-relaxed pt-2">
                   Je décide de démissioner de mon poste à Londres.
-                  <p>Je retourne
+                  <p class="pt-2">Je retourne
                   m&apos;installer en France afin de poursuivre mes recherches pour
-                  trouver une formation le plus rapidement possible. Je continue à suivre des webinaires et me renseigne sur les réalités du métiers.
+                  trouver une formation adéquate qui me permettra de développer les compétances nécessaires sur le marché du travail. Je continue à suivre des webinaires et me renseigne sur les réalités du métiers tout en m'initiant au html et css avec Codecademy.
                   </p>
                 </p>
               </div>
@@ -171,17 +171,17 @@ const Roadmap = () => {
                 </svg> */}
                 <SchoolIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 hover:bg-pink-800 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800 rounded-lg">
                 <h2 class="font-medium title-font mb-1 text-xl text-pink-500">
                   Juin 2022
                 </h2>
-                <p class="leading-relaxed">
+                <p class="leading-relaxed pt-2">
                   Je trouve enfin ma formation en développement web au centre de
                   formation de l&apos;ACS (Access Code School) à Meaux. Là bas,
                   j&apos;apprends grâce à une pédagogie inversé le métier de
                   développeur web full stack au travers de nombreux projets et technologies.
                 </p>
-                <p>Cela a été un véritable tremplin.</p>
+                <p class="pt-2">Cela a été un véritable tremplin.</p>
               </div>
             </div>
           </div>

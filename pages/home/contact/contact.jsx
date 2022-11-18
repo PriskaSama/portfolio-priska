@@ -7,7 +7,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
   template: "font-roboto grid text-left px-8 py-12 text-gray-600 body-font relative",
-  title: "text-2xl uppercase underline pb-20 text-gray-900",
+  title: "text-2xl uppercase pb-20 text-gray-900",
   intro: "py-4",
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
@@ -25,13 +25,13 @@ const Contacts = () => {
 
     <section className={styles.template}>
       <h1 id="contact" className={styles.title}>
-        05. Contact
+        <span class="pr-2 text-pink-600">05.</span>Contact
       </h1>
       {/* <div className={styles.contactpic}>
         <Image src={contactme} alt="contactme" height="180" width="180" />
       </div> */}
       <div
-        className="container px-5 py-24 mx-auto"
+        className="container px-5 py-12 mx-auto backdrop-blur bg-white/30 rounded-xl"
         data-aos="fade-up"
   
         

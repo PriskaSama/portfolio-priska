@@ -87,7 +87,7 @@ export const ParticlesAnime = () => {
             },
             bubble: {
               distance: 200,
-              duration: 0.4,
+              duration: 0.8,
               mix: false,
               opacity: null,
               color: {
@@ -619,7 +619,7 @@ export const ParticlesAnime = () => {
               value: 40,
             },
             move: {
-              speed: 10,
+              speed: 25,
               outModes: {
                 default: "none",
                 right: "",

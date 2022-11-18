@@ -15,11 +15,12 @@ import "aos/dist/aos.css";
 let styles = {
   template: "flex flex-col items-center px-8 py-12 font-roboto",
   template2: "flex flex-col justify-center",
-  title: "flex flex-start w-full uppercase text-2xl underline pb-20",
+  title: "flex flex-start w-full uppercase text-2xl pb-20",
   title2: "text-2xl text-gray-500 mb-12",
   title3: "text-lg italic",
+  title4: "text-xl uppercase pb-20 lg:text-3xl text-gray-200 text-pink-400",
   tasks: "list-none mt-8",
-  div1: "py-4",
+  div1:"py-4",
   divImage: "py-14 flex justify-center",
   divImg2: "lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10",
   text: "pt-4",
@@ -33,14 +34,17 @@ const Projects = () => {
   return (
     <div className={styles.template}>
       <h1 className={styles.title} id="projets">
-        02. Mes projets
+        <span class="text-pink-600 pr-1">02.</span>Mes projets
       </h1>
+      <div>
+        <h2>Petit tour des principaux projets</h2>
+      </div>
       {/* PROJET 1 */}
       <section
-        class="text-gray-400 bg-white/75  opacity-75 body-font rounded-xl lg:w-3/5 lg:mb-8"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font rounded-xl my-8 lg:w-3/5 lg:mb-8"
         data-aos="fade-left"
       >
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
           <div className={styles.divImage} class="lg:ml-8">
             <Image
               src={wireframe}
@@ -52,7 +56,7 @@ const Projects = () => {
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
+            <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
               Intégration wireframe
             </h1>
             <h2 className={styles.title2}>Projet de groupe</h2>
@@ -84,10 +88,10 @@ const Projects = () => {
       </section>
       {/* PROJET 2 */}
       <section
-        class="text-gray-400 bg-white/75   body-font rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font rounded-xl my-8 hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-right"
       >
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
             <Image
               src={landingpage}
@@ -134,10 +138,10 @@ const Projects = () => {
       </section>
       {/* PROJET 3 */}
       <section
-        class="text-gray-400 bg-white/75  body-font rounded-xlhover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
         data-aos="fade-left"
       >
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
             <Image
               src={metadev}
@@ -185,10 +189,10 @@ const Projects = () => {
       </section>
       {/* PROJET 4 */}
       <section
-        class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-right"
       >
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>
             <Image
               src={mazebank}
@@ -237,10 +241,10 @@ const Projects = () => {
       </section>
       {/* PROJET 5 */}
       <section
-        class="text-gray-400 bg-white/75  body-font rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-left"
       >
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:ml-4">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>
             <Image
               src={metadevshop}

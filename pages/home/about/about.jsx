@@ -15,7 +15,7 @@ let styles = {
   template: "grid text-left px-8 py-12 bg-black text-white font-roboto",
   skills: "grid grid-cols-2 gap-8 list-none uppercase py-20",
   profilepic: "flex justify-center py-8",
-  title: "text-2xl uppercase underline pb-20",
+  title: "text-2xl uppercase pb-20",
   spacebtw: "mt-8",
   title2: "text-xl uppercase pb-20 lg:text-3xl text-gray-200 text-pink-400",
   hoverzoom: "hover:scale-100",
@@ -27,16 +27,16 @@ const About = () => {
   return (
     // ABOUT ZONE
     <div id="about" className={styles.template}>
-      <h2 className={styles.title} id="a-propos">01. A propos</h2>
+      <h2 className={styles.title} id="a-propos"> <span class="text-pink-600 pr-2">01.</span>A propos</h2>
       <section class="text-gray-300 body-font" data-aos="fade-up">
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-left w-full mb-20 lg:text-center">
-      <p className={styles.title2}>
-        Hello world! Moi c&apos;est Prisca
-      </p>
+      <h1 className={styles.title2}>
+        Hello world! Moi c&apos;est Prisca.
+      </h1>
       <p>Je suis une dev web junior spécialisé en front-end.</p>
-      <p class="text-center">Comme tout développeur j&apos;aime le processus de création, de brainstorming et de recherche (lecture de la Doc) précedant le moment où l&apos;on se retrousse les manches pour passer aux choses sérieuse et coder!</p>
-      <p class="text-center">Le développement web est devenu une évidence durant l&apos;année 2020, mais l&apos;informatique en général a toujours été l&apos;une de mes passions les plus chère.</p>
+      <p class="text-left lg:text-center pt-2">En tant que développeur j&apos;aime le processus de création, de brainstorming et de recherche (lecture de la Doc) précedant le moment où l&apos;on se retrousse les manches pour passer aux choses sérieuses et coder!</p>
+      <p class="text-left lg:text-center pt-2">Le développement web est devenu une évidence durant l&apos;année 2020, mais l&apos;informatique en général a toujours été l&apos;une de mes passions les plus chère.</p>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-8 lg:text-lg">Voici un petit aperçu des technologies que j&apos;utilise :</p>
     </div>
     <div class="flex flex-wrap -m-2">
