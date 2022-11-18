@@ -22,7 +22,7 @@ const Roadmap = () => {
         <span class="pr-2 text-pink-500"> 03.</span>Mon parcours
       </h1>
       <div className={styles.img}>
-        <h1 class="text-xl pb-20 lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience.</h1>
+        <h1 class="text-4xl pb-20 lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience.</h1>
       </div>
       <section
         class="text-gray-300 body-font"

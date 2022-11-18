@@ -4,13 +4,13 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
   navbar: "h-auto bg-black text-white grid grid-cols-2 lg:grid lg:grid-cols-3",
-  divlogo: "flex justify-start mt-4",
-  logo: "h-auto w-24 lg:w-40",
+  divlogo: "flex justify-start",
+  logo: "h-auto w-24 lg:w-40 lg:mt-4",
   divnav:
   "flex justify-end items-center lg:items-center lg:justify-end lg:space-evenly mr-8 my-4 lg:pb-4",
   div2: "lg:grid lg:col-span-2",
   div3: "lg:flex lg:flex-col lg:justify-center",
-  ul: "uppercase lg:flex lg:flex-row hidden lg:text-xl font-roboto lg:pb-8",
+  ul: "uppercase lg:flex lg:flex-row lg:justify-end hidden lg:text-xl font-roboto lg:pb-8",
   spaceul: "mx-12",
   div4: "lg:flex lg:justify-center py-8",
   hover: "hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
