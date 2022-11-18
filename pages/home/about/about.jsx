@@ -27,7 +27,7 @@ const About = () => {
   return (
     // ABOUT ZONE
     <div id="about" className={styles.template}>
-      <h2 className={styles.title} id="a-propos"> <span class="text-pink-600 pr-2">01.</span>A propos</h2>
+      <h2 className={styles.title} id="a-propos"><span class="text-pink-600 pr-2">01.</span>A propos</h2>
       <section class="text-gray-300 body-font" data-aos="fade-up">
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-left w-full mb-20 lg:text-center">

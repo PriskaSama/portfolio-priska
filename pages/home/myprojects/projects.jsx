@@ -1,9 +1,9 @@
 import Image from "next/image";
-import wireframe from "@src/assets/img/integration-wireframe.png";
+import wireframe from "@src/assets/img/wireframe-final.png";
 import landingpage from "@src/assets/img/landingpage.png";
-import metadev from "@src/assets/img/metadev.png";
-import mazebank from "@src/assets/img/maze-bank.png";
-import metadevshop from "@src/assets/img/metadev-shop.png";
+import metadev from "@src/assets/img/metadevservice.png";
+import mazebank from "@src/assets/img/mazebank.png";
+import metadevshop from "@src/assets/img/metadevshop.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 import * as React from "react";
@@ -44,47 +44,48 @@ const Projects = () => {
       {/* PROJET 1 */}
       <div className={styles.template3}>
       <section
-        class="text-gray-500 backdrop-blur bg-white/30 body-font rounded-xl my-8 lg:my-0 lg:w-3/5 lg:mb-8"
-        data-aos="fade-left"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+        data-aos="fade-right"
         >
-        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className={styles.divImage} class="lg:ml-8">
+        <div class="container mx-auto flex px-5 lg:px-0 py-12 md:flex-row flex-col items-center">
+          <div className={styles.divImage}>
             <Image
               src={wireframe}
-              alt="landingpage"
-              height="350"
+              alt="wireframe"
+              height="450"
               width="350"
               className={styles.imgproject}
-              
               />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
-              Intégration wireframe
+            Intégration wireframe
             </h1>
             <h2 className={styles.title2}>Projet de groupe</h2>
             <p class="mb-8 leading-relaxed">
-              Notre tout premier projet par groupe de deux. L&apos;objectif
+            Notre tout premier projet par groupe de deux. L&apos;objectif
               était d&apos;intégrer une maquette préalablement crée avec Figma. Et de créer une interface web simple afin d&apos;intégrer celle-ci.
             </p>
             <div>
-            <li class="mb-2 leading-relaxed text-left">Elaboration d&apos;un wireframe.</li>
-            <li class="mb-8 leading-relaxed text-left">Passage en production.</li>
+            <li class="mb-2 leading-relaxed">
+            Elaboration d&apos;un wireframe.
+            </li>
+            <li class="mb-2 leading-relaxed text-left">Passage en production.</li>
             </div>
             <p class="mt-8 italic font-bold">Webpack / TailwindCSS/ Netlify</p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a
-                  href="https://github.com/PriskaSama/landing-page0"
+                  href="https://github.com/NAWELC/integration-wireframe"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <GitHubIcon sx={{ fontSize: 30 }} />
+                  <GitHubIcon sx={{ fontSize: 40 }} />
                 </a>
                 <a
-                  href="https://priscad.promo-171.codeur.online/landing-page0/"
+                  href="https://priscad.promo-171.codeur.online/landing-page/"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <OpenInBrowserIcon sx={{ fontSize: 30 }} />
+                  <OpenInBrowserIcon sx={{ fontSize: 40 }} />
                 </a>
               </div>
             </div>
@@ -93,8 +94,8 @@ const Projects = () => {
       </section>
       {/* PROJET 2 */}
       <section
-        class="text-gray-500 backdrop-blur bg-white/30 body-font rounded-xl my-8 lg:my-0 lg:w-3/5 lg:mb-8"
-        data-aos="fade-left"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+        data-aos="fade-right"
         >
         <div class="container mx-auto flex px-5 py-12 lg:pr-12 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
@@ -102,51 +103,58 @@ const Projects = () => {
               src={landingpage}
               alt="landingpage"
               height="350"
-              width="450"
+              width="350"
               className={styles.imgproject}
-              class="ml-12"
               />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl lg:pt-4 text-3xl mb-4 font-medium text-pink-500">
-              Landing page
+          <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
+            Landing page
             </h1>
             <h2 className={styles.title2}>Projet individuel</h2>
-            <p class="leading-relaxed">
-              Dans ce projet, nous devions expérimenter les différentes phases
+            <p class="mb-2 leading-relaxed">
+            Dans ce projet, nous devions expérimenter les différentes phases
               de réalisation d&apos;un projet web. En passant par
               l&apos;intégration d&apos;une maquette à son passage en
               production.
             </p>
-            <p class="mb-8">Effectuer une version responsive sur mobile, tablette
+            <p class="mb-8 leading-relaxed">Effectuer une version responsive sur mobile, tablette
               et desktop. Et finalement héberger le site sur un serveur public.</p>
-            <li class="mb-2 leading-relaxed">Elaboration d&apos;un wireframe.</li>
-            <li class="mb-8 leading-relaxed">Passage en production.</li>
-            <p class="mt-8 italic font-bold">Bootstrap / TailwindCSS</p>
+            <div>
+              <div>
+            <li class="mb-2 leading-relaxed text-left">
+            Elaboration d&apos;un wireframe.
+            </li>
+            <li class="mb-2 leading-relaxed text-left">
+            Passage en production sur serveur public.
+            </li>
+              </div>
+            </div>
+            <p class="mt-8 italic font-bold">Bootstrap / TailwindCSS </p>
             <div class="flex justify-center">
               <div className={styles.divImage}>
                 <a
                   href="https://github.com/PriskaSama/landing-page0"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <GitHubIcon sx={{ fontSize: 30 }} />
+                  <GitHubIcon sx={{ fontSize: 40 }} />
                 </a>
                 <a
                   href="https://priscad.promo-171.codeur.online/landing-page0/"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <OpenInBrowserIcon sx={{ fontSize: 30 }} />
+                  <OpenInBrowserIcon sx={{ fontSize: 40 }} />
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      </div>
+                  </div>
       {/* PROJET 3 */}
       <div className={styles.template3}>
       <section
-        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
         data-aos="fade-left"
         >
         <div class="container mx-auto flex px-5 lg:px-0 py-12 md:flex-row flex-col items-center">
@@ -160,7 +168,7 @@ const Projects = () => {
               />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
+            <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
               Agence web
             </h1>
             <h2 className={styles.title2}>Projet de groupe</h2>
@@ -185,13 +193,13 @@ const Projects = () => {
                   href="https://github.com/mrp-171/agenceweb171"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <GitHubIcon sx={{ fontSize: 30 }} />
+                  <GitHubIcon sx={{ fontSize: 40 }} />
                 </a>
                 <a
                   href="https://metadev-mrp.netlify.app/"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <OpenInBrowserIcon sx={{ fontSize: 30 }} />
+                  <OpenInBrowserIcon sx={{ fontSize: 40 }} />
                 </a>
               </div>
             </div>
@@ -200,10 +208,10 @@ const Projects = () => {
       </section>
       {/* PROJET 4 */}
       <section
-        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 lg:my-0 rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
-        data-aos="fade-right"
+        class="text-gray-500 backdrop-blur bg-white/30 body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+        data-aos="fade-left"
         >
-        <div class="container mx-auto flex px-5 lg:px-0 py-12 md:flex-row flex-col items-center lg:ml-4">
+        <div class="container mx-auto flex px-5 py-12 lg:pr-12 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
             <Image
               src={mazebank}
@@ -214,7 +222,7 @@ const Projects = () => {
               />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
+            <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
               Maze-Bank
             </h1>
             <h2 className={styles.title2}>Projet individuel</h2>
@@ -222,7 +230,7 @@ const Projects = () => {
               Ce projet individuel avait pour but de créer une application
               bancaire fictive. Permettant des dépôts, retrait et virement d&apos;argent.
             </p>
-            <p class="mb-8 leading-relaxed">Ce projet m&apos;a permis de comprendre à quel point et pourquoi Javascript est un puissant language de programmation. Mais également une réelle première introduction à la notion d&apos;algorithmie.</p>
+            <p class="mb-8 leading-relaxed">Ce projet m&apos;a permis de comprendre à quel point et pourquoi Javascript est un puissant language de programmation.</p>
             <div>
               <div>
             <li class="mb-2 leading-relaxed text-left">
@@ -243,13 +251,13 @@ const Projects = () => {
                   href="https://github.com/PriskaSama/maze-bank"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <GitHubIcon sx={{ fontSize: 30 }} />
+                  <GitHubIcon sx={{ fontSize: 40 }} />
                 </a>
                 <a
                   href="https://maze-bank-priska.netlify.app/"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                   >
-                  <OpenInBrowserIcon sx={{ fontSize: 30 }} />
+                  <OpenInBrowserIcon sx={{ fontSize: 40 }} />
                 </a>
               </div>
             </div>
@@ -272,7 +280,7 @@ const Projects = () => {
               className={styles.imgproject}
             />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-16 lg:pr-4 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
               TP Boutique
             </h1>
@@ -297,7 +305,7 @@ const Projects = () => {
                   href="https://metadev-mrp.fr/"
                   className={styles.iconsSpace + " " + styles.zoomanim}
                 >
-                  <OpenInBrowserIcon sx={{ fontSize: 30 }} />
+                  <OpenInBrowserIcon sx={{ fontSize: 40 }} />
                 </a>
               </div>
             </div>
