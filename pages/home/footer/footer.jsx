@@ -1,5 +1,5 @@
 let styles = {
-  template1: "bg-black w-full mt-auto h-28 flex justify-center items-center font-montez lg:text-2xl font-bold",
+  template1: "bg-black w-full mt-auto h-28 flex justify-center items-center font-silkscreen text-md",
   template2: "text-white text-center",
 };
 

@@ -38,7 +38,7 @@ const Contacts = () => {
       >
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="text-xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300">
-            Contactez moi
+            Contactez moi.
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Que ce soit pour me proposer un job, un projet en collaboration ou
@@ -95,7 +95,7 @@ const Contacts = () => {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a className="text-pink-500">contact@derville-portfolio.fr</a>
+              <a className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr">contact@derville-portfolio.fr</a>
               <p className="leading-normal my-5">77100, Meaux (France)</p>
               <span className="inline-flex">
                 <div className={styles.icons}>

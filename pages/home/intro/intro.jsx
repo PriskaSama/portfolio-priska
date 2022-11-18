@@ -10,7 +10,7 @@ let styles = {
   title: "text-lg py-4 lg:py-0",
   title2: "uppercase text-4xl",
   template:
-    "min-h-screen px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
+    "h-[85vh] px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
   text: "flex flex-row w-full justify-center py-4 text-center",
   intro: "py-16 lg:px-10 lg:text-center",
   profilphoto: "flex justify-center mt-8 lg:mt-0",
