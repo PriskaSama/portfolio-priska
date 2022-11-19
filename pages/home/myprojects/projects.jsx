@@ -2,7 +2,7 @@ import Image from "next/image";
 import wireframe from "@src/assets/img/wireframe-final.png";
 import landingpage from "@src/assets/img/landingpage.png";
 import metadev from "@src/assets/img/metadevservice.png";
-import mazebank from "@src/assets/img/mazebank.png";
+import mazebank from "@src/assets/img/maze-bank.png";
 import metadevshop from "@src/assets/img/metadevshop.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
@@ -64,7 +64,7 @@ const Projects = () => {
             <h2 className={styles.title2}>Projet de groupe</h2>
             <p class="mb-8 leading-relaxed">
             Notre tout premier projet par groupe de deux. L&apos;objectif
-              était d&apos;intégrer une maquette préalablement crée avec Figma. Et de créer une interface web simple afin d&apos;intégrer celle-ci.
+              était d&apos;intégrer une maquette préalablement créée avec Figma. Et de créer une interface web simple afin d&apos;intégrer celle-ci.
             </p>
             <div>
             <li class="mb-2 leading-relaxed">

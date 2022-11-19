@@ -21,6 +21,7 @@ export const ParticlesAnime = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
+        preset: "bubbles",
         autoPlay: true,
         background: {
           color: {

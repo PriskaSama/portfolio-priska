@@ -9,8 +9,7 @@ import { TypeAnimation } from "react-type-animation";
 let styles = {
   title: "text-lg py-4 lg:py-0",
   title2: "uppercase text-4xl",
-  template:
-    "h-[85vh] px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
+  template: "h-screen px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
   text: "flex flex-row w-full justify-center py-4 text-center",
   intro: "py-16 lg:px-10 lg:text-center",
   profilphoto: "flex justify-center mt-8 lg:mt-0",
@@ -29,10 +28,7 @@ const Intro = () => {
         <Image src={priskachill} alt="logo" height="300" width="300" />
       </div> */}
 
-      <div
-        className={styles.template}
-        data-aos="zoom-in"
-      >
+      <div className={styles.template} data-aos="zoom-in">
         <div className="text-center lg:flex lg:flex-col lg:items-center lg:pb-8">
           <h1 className={styles.title}>Bonjour, je suis</h1>
           <h1 className={styles.title2}>Prisca Derville</h1>
@@ -71,7 +67,7 @@ const Intro = () => {
           </a>
         </div>
         <div className={styles.text}>
-          <p class="text-pink-500">Cliquez pour voir la suite</p>
+          <p class="text-pink-500">Cliquez en dessous pour voir la suite</p>
         </div>
         <div className={styles.profilphoto}>
           <AnchorLink href="#about">

@@ -11,8 +11,7 @@ let styles = {
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
   iconsSpace: "ml-4",
-  zoomanim:
-    "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-500",
+  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-500",
   button1: "p-2 w-full",
   iconsSpace: "ml-4",
   animateBounce: "animate-bounce w-6 h-6 ml-12",
@@ -39,7 +38,7 @@ const Contacts = () => {
           <h1 className="text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300">
             Contactez moi.
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left">
+          <p className="lg:w-2/3 mx-auto lg:mx-80 leading-relaxed text-base text-left">
             Que ce soit pour me proposer un job, un projet en collaboration ou
             juste me faire un petit coucou, n&apos;hésitez pas envoyez moi un message
             😊
@@ -94,7 +93,9 @@ const Contacts = () => {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+              <div className={styles.zoomanim + " " + styles.button1}>
               <a className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr">contact@derville-portfolio.fr</a>
+              </div>
               <p className="leading-normal my-5">77100, Meaux (France)</p>
               <span className="inline-flex">
                 <div className={styles.icons}>

@@ -22,13 +22,13 @@ const Roadmap = () => {
         <span class="pr-2 text-pink-500"> 03.</span>Mon parcours
       </h1>
       <div className={styles.img}>
-        <h1 class="text-4xl pb-20 lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience.</h1>
+        <h1 class="text-4xl pb-20 lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience</h1>
       </div>
       <section
         class="text-gray-300 body-font"
         data-aos="zoom-in"
       >
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="container px-5 pb-24 lg:pt-8 mx-auto flex flex-wrap">
           <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>

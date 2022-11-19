@@ -17,7 +17,7 @@ let styles = {
   profilepic: "flex justify-center py-8",
   title: "text-2xl uppercase pb-20",
   spacebtw: "mt-8",
-  title2: "text-3xl lg:text-6xl  pb-20 font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300",
+  title2: "text-4xl lg:text-6xl  pb-20 font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300",
   hoverzoom: "hover:scale-100",
   img: "w-16 h-16 bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
   img2: "bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
@@ -32,11 +32,11 @@ const About = () => {
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-left w-full mb-20 lg:text-center">
       <h1 className={styles.title2}>
-        Hello world! Moi c&apos;est Prisca.
+        Hello world!
       </h1>
       <div>
-      <p>Je suis une dev web junior spécialisé en front-end.</p>
-      <p class="text-left lg:text-center pt-2">En tant que développeur j&apos;aime le processus de création, de brainstorming et de recherche (lecture de la Doc) précedant le moment où l&apos;on se retrousse les manches pour passer aux choses sérieuses et coder!</p>
+      <p>Je suis une dev web junior spécialisée en front-end.</p>
+      <p class="text-left lg:text-center pt-2">En tant que développeuse, j&apos;aime le processus de création, de brainstorming et de recherche (lecture de la Doc) précedant le moment où l&apos;on se retrousse les manches pour passer aux choses sérieuses et coder!</p>
       <p class="text-left lg:text-center pt-2">Le développement web est devenu une évidence durant l&apos;année 2020, mais l&apos;informatique en général a toujours été l&apos;une de mes passions les plus chère.</p>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-8 lg:text-lg font-bold text-pink-500">Voici un petit aperçu des technologies que j&apos;utilise :</p>
       </div>
