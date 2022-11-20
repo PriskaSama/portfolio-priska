@@ -29,7 +29,7 @@ const Intro = () => {
 
       <div className={styles.template} data-aos="zoom-in">
         <div className="text-center lg:flex lg:flex-col lg:items-center lg:pb-8">
-          <h1 className={styles.title}>Bonjour, moi c'est</h1>
+          <h1 className={styles.title}>Bonjour, moi c&apos;est</h1>
           <h1 className={styles.title2}>Prisca Derville</h1>
           <h1 className="text-center">Et je suis une</h1>
           <h1 className={styles.title}>

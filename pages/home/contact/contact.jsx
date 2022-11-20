@@ -40,7 +40,7 @@ const Contacts = () => {
           </h1>
           <p className="leading-relaxed text-base">
             Que ce soit pour me proposer un job, un projet en collaboration ou
-            juste me faire un petit coucou, n&apos;hésitez pas à m'envoyez un message
+            juste me faire un petit coucou, n&apos;hésitez pas à m&apos;envoyez un message
             😊
           </p>
         </div>
