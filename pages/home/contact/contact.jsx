@@ -29,18 +29,18 @@ const Contacts = () => {
         <Image src={contactme} alt="contactme" height="180" width="180" />
       </div> */}
       <div
-        className="container px-5 py-12 mx-auto backdrop-blur bg-white/30 rounded-xl"
+        className="container px-5 py-12 mx-auto backdrop-blur bg-white/20 rounded-xl"
         data-aos="fade-up"
   
         
       >
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300">
-            Contactez moi.
+            Contactez moi
           </h1>
-          <p className="lg:w-2/3 mx-auto lg:mx-80 leading-relaxed text-base text-left">
+          <p className="leading-relaxed text-base">
             Que ce soit pour me proposer un job, un projet en collaboration ou
-            juste me faire un petit coucou, n&apos;hésitez pas envoyez moi un message
+            juste me faire un petit coucou, n&apos;hésitez pas à m'envoyez un message
             😊
           </p>
         </div>

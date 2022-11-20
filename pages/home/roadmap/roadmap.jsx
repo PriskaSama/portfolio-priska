@@ -1,6 +1,6 @@
-// import Image from "next/image";
+import Image from "next/image";
 // import mermaid from "@src/assets/img/mermaid.png";
-// import priskachill from "@src/assets/img/chill-working.png";
+import priskapp from "@src/assets/img/priskapp.png";
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 import LocationCityIcon from '@mui/icons-material/LocationCity';
 import BakeryDiningIcon from '@mui/icons-material/BakeryDining';
@@ -9,9 +9,11 @@ import SchoolIcon from '@mui/icons-material/School';
 let styles = {
   template: "grid text-left bg-black text-white px-8 py-12 font-roboto",
   title: "uppercase pb-20 text-2xl",
-  img: "flex justify-center py-8",
+  img: "flex justify-center pt-8",
   text: "py-12",
   space: "py-4",
+  divimg: "w-screen lg:h-[23rem] lg:ml-12 flex justify-center",
+  pp: "h-auto w-[350px] lg:w-[600px] hue-rotate-0 hover:hue-rotate-[285deg]",
 };
 
 const Roadmap = () => {
@@ -22,7 +24,12 @@ const Roadmap = () => {
         <span class="pr-2 text-pink-500"> 03.</span>Mon parcours
       </h1>
       <div className={styles.img}>
-        <h1 class="text-4xl pb-20 lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience</h1>
+        <h1 class="text-4xl lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience</h1>
+      </div>
+      <div className={styles.divimg} data-aos="zoom-in-up">
+      <span className={styles.pp}>
+          <Image src={priskapp} alt="priskapic" />
+      </span>
       </div>
       <section
         class="text-gray-300 body-font"
@@ -51,7 +58,7 @@ const Roadmap = () => {
                 </svg> */}
                 <FlightTakeoffIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 px-4 py-4 hover:bg-pink-800/50 rounded-3xl">
                 <h2 class="font-medium title-font text-pink-500 mb-1 text-xl">
                   Aout 2017
                 </h2>
@@ -90,7 +97,7 @@ const Roadmap = () => {
                 </svg> */}
                 <LocationCityIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 py-4 sm:mt-0 px-4 hover:bg-pink-800/50 rounded-3xl">
                 <h2 class="font-medium title-font text-pink-500 mb-1 text-xl">
                   Mai 2020
                 </h2>
@@ -134,7 +141,7 @@ const Roadmap = () => {
                 </svg> */}
                 <BakeryDiningIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800/95 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 py-4 sm:mt-0 px-4 hover:bg-pink-800/50 rounded-3xl">
                 <h2 class="font-medium title-font text-pink-500 mb-1 text-xl">
                   Novembre 2021
                 </h2>
@@ -171,7 +178,7 @@ const Roadmap = () => {
                 </svg> */}
                 <SchoolIcon sx={{ fontSize: 40 }} />
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 py-2 sm:mt-0 px-4 hover:bg-pink-800 rounded-lg">
+              <div class="flex-grow sm:pl-6 mt-6 py-4 sm:mt-0 px-4 hover:bg-pink-800/50 rounded-3xl">
                 <h2 class="font-medium title-font mb-1 text-xl text-pink-500">
                   Juin 2022
                 </h2>

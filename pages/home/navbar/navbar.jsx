@@ -4,33 +4,31 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
   navbar:
-    "h-auto bg-black text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
-  divlogo: "flex justify-center",
-  logo: "h-auto w-24 lg:w-40 lg:mt-4 lg:ml-4",
+    "lg:h-[15vh] bg-black text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
+  name: "flex justify-around lg:justify-center lg:items-center",
+  logo: "h-auto w-24 lg:hidden",
   divnav:
     "flex justify-end items-center lg:items-center lg:justify-end lg:space-evenly mr-8 my-4 lg:pb-4",
   div2: "lg:grid lg:col-span-2",
-  div3: "lg:flex lg:flex-col lg:justify-center",
+  div3: "lg:flex lg:flex-col lg:justify-center lg:pt-4",
   div4: "lg:flex lg:justify-center py-8",
   ul: "uppercase lg:flex lg:flex-row lg:justify-end hidden lg:text-xl font-roboto",
   spaceul: "mx-12",
-  divname: "w-max pb-4 flex",
   hover: "hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
-  fontmontez: "font-montez text-4xl text-pink-500 lg:text-6xl",
-  divlogo: "flex lg:flex lg:justify-center",
+  fontmontez: "font-montez text-5xl text-pink-500 lg:text-7xl",
 };
 
 const Navbar = () => {
   return (
     <nav id="nav" className={styles.navbar}>
       {/* LOGO */}
-      <div className={styles.divlogo}>
+      <div className={styles.name}>
         <div className={styles.logo}>
           <Image src={priskachill} alt="priskachill" />
-          <div className={styles.divname}>
+        </div>
+          <div className={styles.div4}>
             <h1 className={styles.fontmontez}>Prisca Derville</h1>
           </div>
-        </div>
       </div>
       <div className={styles.div2}>
         <div className={styles.div3}>
