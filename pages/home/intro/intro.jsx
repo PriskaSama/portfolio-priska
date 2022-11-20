@@ -66,12 +66,12 @@ const Intro = () => {
           </a>
         </div>
         <div className={styles.text}>
-          <p class="text-pink-500">Cliquez en dessous pour voir la suite</p>
+          <p className="text-pink-500">Cliquez en dessous pour voir la suite</p>
         </div>
         <div className={styles.profilphoto}>
           <AnchorLink href="#about">
             <KeyboardDoubleArrowDownIcon
-              className={styles.animateBounce + " " + styles.zoomanim}
+              className={`${styles.animateBounce} ${styles.zoomanim}`}
             />
           </AnchorLink>
         </div>

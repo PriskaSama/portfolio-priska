@@ -3,7 +3,7 @@ import priskachill from "@src/assets/img/chill-working.png";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
-  navbar: "lg:h-[15vh] bg-black text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
+  navbar: "lg:h-[15vh] bg-black/90 backdrop-blur text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
   name: "flex justify-around lg:justify-center lg:items-center",
   logo: "h-auto pt-2 w-24 lg:hidden",
   divnav: "flex justify-end items-center lg:items-center lg:justify-end lg:space-evenly mr-8 my-4 lg:pb-4",
@@ -37,22 +37,22 @@ const Navbar = () => {
                   Accueil
                 </a>
               </li>
-              <li className={styles.spaceul + " " + styles.hover}>
+              <li className={`${styles.spaceul} ${styles.hover}`}>
                 <AnchorLink href="#a-propos">A propos</AnchorLink>
               </li>
               <li className={styles.hover}>
                 <AnchorLink href="#projets">Projets</AnchorLink>
               </li>
-              <li className={styles.spaceul + " " + styles.hover}>
+              <li className={`${styles.spaceul} ${styles.hover}`}>
                 <AnchorLink href="#mon-parcours">Mon parcours</AnchorLink>
               </li>
               <li className={styles.hover}>
                 <AnchorLink href="#contact">Contact</AnchorLink>
               </li>
-              <li className={styles.spaceul + " " + styles.hover}>
+              <li className={`${styles.spaceul} ${styles.hover}`}>
                 <a
                   href="/docs/CV-PriscaDerville.pdf"
-                  class="border border-pink-400 rounded-md px-4 py-2"
+                  className="border border-pink-400 rounded-md px-4 py-2"
                 >
                   Mon CV
                 </a>
@@ -61,7 +61,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* NAV BAR */}
     </nav>
   );
 };

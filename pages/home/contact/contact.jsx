@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
@@ -10,9 +10,7 @@ let styles = {
   intro: "py-4",
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
-  iconsSpace: "ml-4",
-  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-500",
-  button1: "p-2 w-full",
+  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-500 p-2 w-full",
   iconsSpace: "ml-4",
   animateBounce: "animate-bounce w-6 h-6 ml-12",
 };
@@ -23,13 +21,10 @@ const Contacts = () => {
 
     <section className={styles.template}>
       <h1 id="contact" className={styles.title}>
-        <span class="pr-2 text-pink-600">05.</span>Contact
+        <span className="pr-2 text-pink-600">05.</span>Contact
       </h1>
-      {/* <div className={styles.contactpic}>
-        <Image src={contactme} alt="contactme" height="180" width="180" />
-      </div> */}
       <div
-        className="container px-5 py-12 mx-auto backdrop-blur bg-white/20 rounded-xl"
+        className="container px-5 py-12 mx-auto backdrop-blur-sm bg-white/20 rounded-xl"
         data-aos="fade-up"
   
         
@@ -38,7 +33,7 @@ const Contacts = () => {
           <h1 className="text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300" data-aos="flip-right">
             Contactez moi
           </h1>
-          <p className="leading-relaxed text-base">
+          <p className="leading-relaxed text-base" data-aos="fade-up-left">
             Que ce soit pour me proposer un job, un projet en collaboration ou
             juste me faire un petit coucou, n&apos;hésitez pas à m&apos;envoyez un message
             😊
@@ -55,6 +50,7 @@ const Contacts = () => {
                   type="text"
                   id="name"
                   name="name"
+                  placeholder="Votre nom"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 ></input>
               </div>
@@ -68,6 +64,7 @@ const Contacts = () => {
                   type="email"
                   id="email"
                   name="email"
+                  placeholder="Votre email"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 ></input>
               </div>
@@ -83,31 +80,32 @@ const Contacts = () => {
                 <textarea
                   id="message"
                   name="message"
+                  placeholder="Dites moi tout"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
             </div>
-            <div className={styles.zoomanim + " " + styles.button1}>
+            <div className={styles.zoomanim}>
               <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none rounded text-lg hover:scale-125 hover:ease-in hover:duration-300 hover:text-black">
                 Envoyer
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <div className={styles.zoomanim + " " + styles.button1}>
+              <div className={styles.zoomanim}>
               <a className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr">contact@derville-portfolio.fr</a>
               </div>
-              <p className="leading-normal my-5">77100, Meaux (France)</p>
+              <p className="leading-normal my-5">77100, Meaux</p>
               <span className="inline-flex">
                 <div className={styles.icons}>
                   <a
                     href="https://www.linkedin.com/in/dervilleprisca/"
-                    className={styles.iconsSpace + " " + styles.zoomanim}
+                    className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <LinkedInIcon sx={{ fontSize: 30 }} />
                   </a>
                   <a
                     href="https://github.com/PriskaSama"
-                    className={styles.iconsSpace + " " + styles.zoomanim}
+                    className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 30 }} />
                   </a>
@@ -117,13 +115,12 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-      <div class="flex justify-end">
+      <div className="flex justify-end">
         <AnchorLink href="#nav">
           <KeyboardDoubleArrowUpIcon
-            className={styles.animateBounce + " " + styles.zoomanim}
+            className={`{styles.animateBounce} ${styles.zoomanim}`}
           />
         </AnchorLink>
-        {/* <p className={styles.intro}>Retour vers le haut</p> */}
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -12,8 +13,8 @@ export default function Document() {
       <body className="font-silkscreen">
         <Main />
         <NextScript />
-        <script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E"></script>
-        <script defer>AOS.init();</script>
+        <Script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E"></Script>
+        <Script defer>AOS.init();</Script>
       </body>
     </Html>
   );

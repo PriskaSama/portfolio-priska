@@ -25,7 +25,7 @@ export const ParticlesAnime = () => {
         autoPlay: true,
         background: {
           color: {
-            value: "BFDBFE",
+            value: "#F2D4D7",
           },
           image: "",
           position: "50% 50%",
@@ -88,7 +88,7 @@ export const ParticlesAnime = () => {
             },
             bubble: {
               distance: 200,
-              duration: 0.8,
+              duration: 0.1,
               mix: false,
               opacity: null,
               color: {
@@ -305,14 +305,14 @@ export const ParticlesAnime = () => {
             },
             decay: 0,
             distance: {},
-            direction: "bottom",
+            direction: "top",
             drift: 0,
             enable: true,
             gravity: {
-              acceleration: 9.81,
+              acceleration: 8,
               enable: false,
               inverse: false,
-              maxSpeed: 50,
+              maxSpeed: 20,
             },
             path: {
               clamp: true,
@@ -406,7 +406,7 @@ export const ParticlesAnime = () => {
             animation: {
               count: 0,
               enable: false,
-              speed: 5,
+              speed: 2,
               decay: 0,
               sync: false,
               destroy: "none",
@@ -590,64 +590,66 @@ export const ParticlesAnime = () => {
             speed: 1,
           },
         },
-        pauseOnBlur: true,
-        pauseOnOutsideViewport: true,
-        responsive: [],
-        smooth: false,
-        style: {},
-        themes: [],
-        zLayers: 100,
-        emitters: {
-          autoPlay: true,
-          fill: true,
-          life: {
-            wait: false,
-          },
-          rate: {
-            quantity: 1,
-            delay: 7,
-          },
-          shape: "square",
-          startCount: 0,
-          size: {
-            mode: "percent",
-            height: 0,
-            width: 0,
-          },
-          particles: {
+        // pauseOnBlur: true,
+        // pauseOnOutsideViewport: true,
+        // responsive: [],
+        // smooth: true,
+        // style: {},
+        // themes: [],
+        // zLayers: 100,
+        // emitters: {
+        //   autoPlay: true,
+        //   fill: true,
+        //   life: {
+        //     wait: false,
+        //   },
+        //   rate: {
+        //     quantity: 1,
+        //     delay: 7,
+        //   },
+        //   shape: "square",
+        //   startCount: 0,
+        //   size: {
+        //     mode: "percent",
+        //     height: 0,
+        //     width: 0,
+        //   },
+        //   particles: {
             
-            size: {
-              value: 40,
-            },
-            move: {
-              speed: 25,
-              outModes: {
-                default: "none",
-                right: "",
-              },
-              straight: true,
-            },
-            zIndex: {
-              value: 0,
-            },
-            rotate: {
-              value: {
-                min: 0,
-                max: 360,
-              },
-              animation: {
-                enable: true,
-                speed: 15,
-                sync: true,
-              },
-            },
-          },
-          position: {
-            x: -5,
-            y: 55,
-          },
-        },
+        //     size: {
+        //       value: 40,
+        //     },
+        //     move: {
+        //       speed: 25,
+        //       outModes: {
+        //         default: "none",
+        //         right: "",
+        //       },
+        //       straight: true,
+        //     },
+        //     zIndex: {
+        //       value: 0,
+        //     },
+        //     rotate: {
+        //       value: {
+        //         min: 0,
+        //         max: 360,
+        //       },
+        //       animation: {
+        //         enable: true,
+        //         speed: 15,
+        //         sync: true,
+        //       },
+        //     },
+        //   },
+        //   position: {
+        //     x: -5,
+        //     y: 55,
+        //   },
+        // },
       }}
     />
   );
 };
+
+export default Particles;

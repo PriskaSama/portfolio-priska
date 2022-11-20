@@ -1,10 +1,10 @@
 import Layout from "@src/components/layouts/layout";
-import { ParticlesAnime } from "@src/components/tools/particles";
+// import { ParticlesAnime } from "@src/components/tools/particles";
 
 const HomePage = () => {
   return (
     <>
-      <ParticlesAnime />
+      {/* <ParticlesAnime /> */}
       <Layout />
     </>
   );

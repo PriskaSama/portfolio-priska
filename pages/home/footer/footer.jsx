@@ -1,5 +1,8 @@
+// import Image from "next/image";
+// import coral from "@src/assets/img/coral.png";
+
 let styles = {
-  template1: "bg-black w-full mt-auto h-28 flex justify-center items-center font-silkscreen text-md",
+  template1: "bg-black/90 w-full mt-auto h-28 flex justify-center items-center font-silkscreen text-md",
   template2: "text-white text-center",
 };
 
@@ -8,8 +11,8 @@ const Footer = () => {
     <footer className={styles.template1}>
       <div className={styles.template2}>
         <div>
-          <p>
-            © 2022 -{" "}
+          <span>
+            © 2022 -
             <a
               href="https://linkedin.com/in/dervilleprisca"
               target="_blank"
@@ -17,7 +20,7 @@ const Footer = () => {
             >
               Priska Derville
             </a>
-          </p>
+          </span>
           <p>Made with my blood & tears🩸😭</p>
         </div>
       </div>
