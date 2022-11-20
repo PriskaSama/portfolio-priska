@@ -9,15 +9,14 @@ import { TypeAnimation } from "react-type-animation";
 let styles = {
   title: "text-lg py-4 lg:py-0",
   title2: "uppercase text-4xl",
-  template: "h-screen px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
+  template: "mt-40 h-[81vh] lg:h-screen px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
   text: "flex flex-row w-full justify-center py-4 text-center",
   intro: "py-16 lg:px-10 lg:text-center",
   profilphoto: "flex justify-center mt-8 lg:mt-0",
   icons: "flex justify-center py-8 md:hidden lg:hidden",
   animateBounce: "animate-bounce w-6 h-6",
   iconsSpace: "ml-4",
-  zoomanim:
-    "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
+  zoomanim: "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
 };
 
 const Intro = () => {
@@ -30,7 +29,7 @@ const Intro = () => {
 
       <div className={styles.template} data-aos="zoom-in">
         <div className="text-center lg:flex lg:flex-col lg:items-center lg:pb-8">
-          <h1 className={styles.title}>Bonjour, je suis</h1>
+          <h1 className={styles.title}>Bonjour, moi c'est</h1>
           <h1 className={styles.title2}>Prisca Derville</h1>
           <h1 className="text-center">Et je suis une</h1>
           <h1 className={styles.title}>

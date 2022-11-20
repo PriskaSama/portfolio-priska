@@ -20,7 +20,7 @@ let styles = {
   hoverzoom: "hover:scale-100",
   img: "w-16 h-16 bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
   img2: "bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
-  introbox: "text-justify lg:w-2/3",
+  introbox: "text-justify lg:w-2/3 lg:pt-8",
 };
 
 const About = () => {
@@ -33,7 +33,7 @@ const About = () => {
       <section class="text-gray-300 body-font" data-aos="fade-up">
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-col w-full mb-20 lg:text-center">
-            <h1 className={styles.title2}>Hello world!</h1>
+            <h1 className={styles.title2} data-aos="flip-right">Hello world!</h1>
             <div className={styles.introbox}>
               <p>Je suis une dev web junior spécialisée en front-end.</p>
               <p class="pt-2">

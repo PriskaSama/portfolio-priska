@@ -7,8 +7,8 @@ import BakeryDiningIcon from '@mui/icons-material/BakeryDining';
 import SchoolIcon from '@mui/icons-material/School';
 
 let styles = {
-  template: "grid text-left bg-black text-white px-8 py-12 font-roboto",
-  title: "uppercase pb-20 text-2xl",
+  template: "grid text-left bg-black text-white py-12 font-roboto",
+  title: "uppercase pb-20 pl-4 text-2xl",
   img: "flex justify-center pt-8",
   text: "py-12",
   space: "py-4",
@@ -23,10 +23,10 @@ const Roadmap = () => {
       <h1 className={styles.title} id="mon-parcours">
         <span class="pr-2 text-pink-500"> 03.</span>Mon parcours
       </h1>
-      <div className={styles.img}>
+      <div className={styles.img} data-aos="flip-right">
         <h1 class="text-4xl lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience</h1>
       </div>
-      <div className={styles.divimg} data-aos="zoom-in-up">
+      <div className={styles.divimg} data-aos="flip-left">
       <span className={styles.pp}>
           <Image src={priskapp} alt="priskapic" />
       </span>

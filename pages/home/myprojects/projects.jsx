@@ -21,7 +21,7 @@ let styles = {
   title5: "text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300",
   tasks: "list-none mt-8",
   div1: "py-4",
-  divImage: "lg:pb-14 lg:py-14 lg:pl-8 lg:flex lg:justify-center",
+  divImage: "pt-4 lg:py-14 lg:pl-8 lg:flex lg:justify-center",
   divImg2: "lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10",
   text: "pt-4",
   imgproject: "object-cover object-center",
@@ -35,16 +35,16 @@ const Projects = () => {
       <h1 className={styles.title} id="projets">
         <span class="text-pink-600 pr-1">02.</span>Mes projets
       </h1>
-      <div className={styles.title5}>
+      <div className={styles.title5} data-aos="flip-right">
         <h2>Tour des principaux projets.</h2>
       </div>
       {/* PROJET 1 */}
       <div className={styles.template3}>
-        <section
+      <section
           class="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
-          data-aos="fade-right"
+          data-aos="fade-left"
         >
-          <div class="container mx-auto flex px-5 pt-12 lg:pr-12 md:flex-row flex-col items-center">
+          <div class="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
             <div className={styles.divImage}>
               <Image
                 src={wireframe}
@@ -56,36 +56,40 @@ const Projects = () => {
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
-                Intégration wireframe
+              Intégration wireframe
               </h1>
               <h2 className={styles.title2}>Projet de groupe</h2>
-              <p class="mb-8 leading-relaxed text-left">
-                Notre tout premier projet par groupe de deux. L&apos;objectif
+              <p class="mb-2 leading-relaxed text-left">
+              Notre tout premier projet par groupe de deux. L&apos;objectif
                 était d&apos;intégrer une maquette préalablement créée avec
                 Figma. Et de créer une interface web simple afin d&apos;intégrer
                 celle-ci.
               </p>
-              <div>
-                <li class="mb-2 leading-relaxed text-left">
-                  Elaboration d&apos;un wireframe.
-                </li>
-                <li class="mb-2 leading-relaxed text-left">
-                  Passage en production.
-                </li>
-              </div>
-              <p class="mt-8 italic font-bold">
-                Webpack / TailwindCSS/ Netlify
+              <p class="mb-8 leading-relaxed text-left">
+              Et de créer une interface web simple afin d&apos;intégrer
+                celle-ci. L&apos;objectif etant de se familiariser avec les classes CSS.
               </p>
+              <div>
+                <div>
+                  <li class="mb-2 leading-relaxed text-left">
+                    Elaboration d&apos;un wireframe.
+                  </li>
+                  <li class="mb-2 leading-relaxed text-left">
+                    Passage en production sur serveur public.
+                  </li>
+                </div>
+              </div>
+              <p class="mt-8 italic font-bold">En Vanilla </p>
               <div class="flex justify-center">
                 <div className={styles.divImage}>
                   <a
-                    href="https://github.com/NAWELC/integration-wireframe"
+                    href="https://github.com/PriskaSama/landing-page0"
                     className={styles.iconsSpace + " " + styles.zoomanim}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
                   </a>
                   <a
-                    href="https://priscad.promo-171.codeur.online/landing-page/"
+                    href="https://priscad.promo-171.codeur.online/landing-page0/"
                     className={styles.iconsSpace + " " + styles.zoomanim}
                   >
                     <OpenInBrowserIcon sx={{ fontSize: 40 }} />
@@ -100,7 +104,7 @@ const Projects = () => {
           class="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
           data-aos="fade-right"
         >
-          <div class="container mx-auto flex px-5 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
+          <div class="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
             <div className={styles.divImage}>
               <Image
                 src={landingpage}
@@ -158,11 +162,11 @@ const Projects = () => {
       </div>
       {/* PROJET 3 */}
       <div className={styles.template3}>
-        <section
+      <section
           class="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
           data-aos="fade-left"
         >
-          <div class="container mx-auto flex px-5 pt-12 lg:pr-12 md:flex-row flex-col items-center">
+          <div class="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
             <div className={styles.divImage}>
               <Image
                 src={metadev}
@@ -172,46 +176,49 @@ const Projects = () => {
                 className={styles.imgproject}
               />
             </div>
-            <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start text-left md:text-left items-center">
               <h1 class="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
                 Agence web
               </h1>
               <h2 className={styles.title2}>Projet de groupe</h2>
               <p class="mb-2 leading-relaxed">
-                Ce projet par groupe de trois, consistait à fonder une
+              Ce projet par groupe de trois, consistait à fonder une
                 agence-web fictive. Proposant divers services tel que création
                 de site web, réferencement SEO/SEA.
-                <p class="mb-8 leading-relaxed">
-                  Les étapes les plus importantes étaient les suivantes:
-                </p>
+              </p>
+              <p class="mb-8 leading-relaxed">
+              Les étapes les plus importantes furent les suivantes:
+
               </p>
               <div>
-                <li class="mb-2 leading-relaxed">
+                <div>
+                  <li class="mb-2 leading-relaxed text-left">
                   Définition de l&apos;identité de l&apos;agence.
-                </li>
-                <li class="mb-2 leading-relaxed text-left">
-                  Elaboration d&apos;un cahier des charges.
-                </li>
-                <li class="mb-2 leading-relaxed text-left">
+                  </li>
+                  <li class="mb-2 leading-relaxed text-left">
+                    Elaboration d&apos;un cahier des charges.
+                  </li>
+                  <li class="mb-2 leading-relaxed text-left">
                   Conception du site en suivant la méthode Kanban.
-                </li>
-                <li class="mb-2 leading-relaxed text-left">
+                  </li>
+                  <li class="mb-2 leading-relaxed text-left">
                   Développement en local et hébergement sur Netlify.
-                </li>
+                  </li>
+                </div>
               </div>
               <p class="mt-8 italic font-bold">
-                Webpack / TailwindCSS/ Netlify / Figma
+                Webpack / Javascript / Tailwind CSS / Netlify{" "}
               </p>
               <div class="flex justify-center">
                 <div className={styles.divImage}>
                   <a
-                    href="https://github.com/mrp-171/agenceweb171"
+                    href="https://github.com/PriskaSama/maze-bank"
                     className={styles.iconsSpace + " " + styles.zoomanim}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
                   </a>
                   <a
-                    href="https://metadev-mrp.netlify.app/"
+                    href="https://maze-bank-priska.netlify.app/"
                     className={styles.iconsSpace + " " + styles.zoomanim}
                   >
                     <OpenInBrowserIcon sx={{ fontSize: 40 }} />
@@ -224,9 +231,9 @@ const Projects = () => {
         {/* PROJET 4 */}
         <section
           class="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
-          data-aos="fade-left"
+          data-aos="fade-right"
         >
-          <div class="container mx-auto flex px-5 lg:py-12 lg:pr-12 md:flex-row flex-col items-center">
+          <div class="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
             <div className={styles.divImage}>
               <Image
                 src={mazebank}
@@ -291,7 +298,7 @@ const Projects = () => {
         class="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
         data-aos="fade-left"
       >
-        <div class="container mx-auto flex px-5 lg:pt-12 md:flex-row flex-col items-center lg:ml-4">
+        <div class="container mx-auto flex px-5 pb-8 lg:pt-12 md:flex-row flex-col items-center lg:ml-4">
           <div className={styles.divImage}>
             <Image
               src={metadevshop}

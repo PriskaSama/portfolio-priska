@@ -35,7 +35,7 @@ const Contacts = () => {
         
       >
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300">
+          <h1 className="text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300" data-aos="flip-right">
             Contactez moi
           </h1>
           <p className="leading-relaxed text-base">

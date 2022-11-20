@@ -3,12 +3,10 @@ import priskachill from "@src/assets/img/chill-working.png";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 let styles = {
-  navbar:
-    "lg:h-[15vh] bg-black text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
+  navbar: "lg:h-[15vh] bg-black text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
   name: "flex justify-around lg:justify-center lg:items-center",
-  logo: "h-auto w-24 lg:hidden",
-  divnav:
-    "flex justify-end items-center lg:items-center lg:justify-end lg:space-evenly mr-8 my-4 lg:pb-4",
+  logo: "h-auto pt-2 w-24 lg:hidden",
+  divnav: "flex justify-end items-center lg:items-center lg:justify-end lg:space-evenly mr-8 my-4 lg:pb-4",
   div2: "lg:grid lg:col-span-2",
   div3: "lg:flex lg:flex-col lg:justify-center lg:pt-4",
   div4: "lg:flex lg:justify-center py-8",
