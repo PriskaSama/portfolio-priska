@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 let styles = {
   title: "text-lg py-4 lg:py-0",
@@ -55,15 +56,15 @@ const Intro = () => {
           modi.
         </p> */}
         <div className={styles.icons}>
-          <a
+          <Link
             href="https://www.linkedin.com/in/dervilleprisca/"
             className={styles.zoomanim}
           >
             <LinkedInIcon sx={{ fontSize: 30 }} />
-          </a>
-          <a href="https://github.com/PriskaSama" className={styles.iconsSpace}>
+          </Link>
+          <Link href="https://github.com/PriskaSama" className={styles.iconsSpace}>
             <GitHubIcon sx={{ fontSize: 30 }} />
-          </a>
+          </Link>
         </div>
         <div className={styles.text}>
           <p className="text-pink-500">Cliquez en dessous pour voir la suite</p>

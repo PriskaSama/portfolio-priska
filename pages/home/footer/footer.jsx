@@ -1,5 +1,6 @@
 // import Image from "next/image";
 // import coral from "@src/assets/img/coral.png";
+import Link from "next/link";
 
 let styles = {
   template1: "bg-black/90 w-full mt-auto h-28 flex justify-center items-center font-silkscreen text-md",
@@ -13,13 +14,13 @@ const Footer = () => {
         <div>
           <span>
             © 2022 -
-            <a
+            <Link
               href="https://linkedin.com/in/dervilleprisca"
               target="_blank"
               rel="noreferrer noopener"
             >
               Priska Derville
-            </a>
+            </Link>
           </span>
           <p>Made with my blood & tears🩸😭</p>
         </div>

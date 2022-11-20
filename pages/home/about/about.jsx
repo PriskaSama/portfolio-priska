@@ -8,7 +8,7 @@ import php from "@src/assets/img/php.png";
 import js from "@src/assets/img/js.png";
 import css from "@src/assets/img/css.png";
 import html from "@src/assets/img/html.png";
-// import next from "next";
+import Link from "next/link";
 
 let styles = {
   template: "grid text-left px-8 py-12 bg-black text-white font-roboto",

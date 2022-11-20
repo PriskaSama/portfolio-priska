@@ -9,6 +9,7 @@ import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 import * as React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 let styles = {
   template: "flex flex-col items-center px-8 py-12 font-roboto",
@@ -71,29 +72,31 @@ const Projects = () => {
               </p>
               <div>
                 <div>
+                  <ul>
                   <li className="mb-2 leading-relaxed text-left">
                     Elaboration d&apos;un wireframe.
                   </li>
                   <li className="mb-2 leading-relaxed text-left">
                     Passage en production sur serveur public.
                   </li>
+                  </ul>
                 </div>
               </div>
               <p className="mt-8 italic font-bold">En Vanilla CSS </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <a
+                  <Link
                     href="https://github.com/PriskaSama/landing-page0"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://priscad.promo-171.codeur.online/landing-page0/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,29 +134,31 @@ const Projects = () => {
               </p>
               <div>
                 <div>
+                  <ul>
                   <li className="mb-2 leading-relaxed text-left">
                     Elaboration d&apos;un wireframe.
                   </li>
                   <li className="mb-2 leading-relaxed text-left">
                     Passage en production sur serveur public.
                   </li>
+                  </ul>
                 </div>
               </div>
               <p className="mt-8 italic font-bold">Bootstrap / TailwindCSS </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <a
+                  <Link
                     href="https://github.com/PriskaSama/landing-page0"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://priscad.promo-171.codeur.online/landing-page0/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -192,6 +197,7 @@ const Projects = () => {
               </p>
               <div>
                 <div>
+                  <ul>
                   <li className="mb-2 leading-relaxed text-left">
                   Définition de l&apos;identité de l&apos;agence.
                   </li>
@@ -204,6 +210,7 @@ const Projects = () => {
                   <li className="mb-2 leading-relaxed text-left">
                   Développement en local et hébergement sur Netlify.
                   </li>
+                  </ul>
                 </div>
               </div>
               <p className="mt-8 italic font-bold">
@@ -211,18 +218,18 @@ const Projects = () => {
               </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <a
+                  <Link
                     href="https://github.com/PriskaSama/maze-bank"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://maze-bank-priska.netlify.app/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -259,6 +266,7 @@ const Projects = () => {
               </p>
               <div>
                 <div>
+                  <ul>
                   <li className="mb-2 leading-relaxed text-left">
                     Développement d&apos;une interface utilisateur.
                   </li>
@@ -268,6 +276,7 @@ const Projects = () => {
                   <li className="mb-2 leading-relaxed text-left">
                     Production et hébergement sur Netlify.
                   </li>
+                  </ul>
                 </div>
               </div>
               <p className="mt-8 italic font-bold">
@@ -275,18 +284,18 @@ const Projects = () => {
               </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <a
+                  <Link
                     href="https://github.com/PriskaSama/maze-bank"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://maze-bank-priska.netlify.app/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -323,6 +332,7 @@ const Projects = () => {
               J&apos;ai également crée une page Linkedin active pour ce projet.
             </p>
             <div>
+              <ul>
               <li className="mb-2 leading-relaxed text-left">
                 Elaboration d&apos;un wireframe.
               </li>
@@ -335,16 +345,17 @@ const Projects = () => {
               <li className="mb-2 leading-relaxed text-left">
                 Hébergement sur nom de domaine Ionos.
               </li>
+              </ul>
             </div>
             <p className="mt-8 italic font-bold">Wordpress / Elementor / Ionos</p>
             <div className="flex justify-center">
               <div className={styles.divImage}>
-                <a
+                <Link
                   href="https://metadev-mrp.fr/"
                   className={`${styles.iconsSpace} ${styles.zoomanim}`}
                 >
                   <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

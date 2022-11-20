@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
+import Link from "next/link";
 
 let styles = {
   template: "font-roboto grid text-left px-8 py-12 text-gray-600 body-font relative",
@@ -92,23 +93,23 @@ const Contacts = () => {
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <div className={styles.zoomanim}>
-              <a className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr">contact@derville-portfolio.fr</a>
+              <Link className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr">contact@derville-portfolio.fr</Link>
               </div>
               <p className="leading-normal my-5">77100, Meaux</p>
               <span className="inline-flex">
                 <div className={styles.icons}>
-                  <a
+                  <Link
                     href="https://www.linkedin.com/in/dervilleprisca/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <LinkedInIcon sx={{ fontSize: 30 }} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://github.com/PriskaSama"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 30 }} />
-                  </a>
+                  </Link>
                 </div>
               </span>
             </div>

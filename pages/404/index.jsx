@@ -1,10 +1,10 @@
-import Link from "next/link";
+import link from "next/link";
 
 let styles = {
   error: "flex w-screen h-screen items-center justify-center",
 };
 
-const Error404 = () => {
+const error404 = () => {
   return (
     <div className={styles.error}>
       <h1>ERREUR 404...triste, tu t&apos;es trompé</h1>
@@ -15,4 +15,4 @@ const Error404 = () => {
   );
 };
 
-export default Error404;
+export default error404;

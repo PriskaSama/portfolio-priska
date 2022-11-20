@@ -147,7 +147,7 @@ const Roadmap = () => {
                 <p className="leading-relaxed pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
                   Je décide de démissioner de mon poste à Londres.
                   <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">Je retourne
-                  m&apos;installer en France afin de poursuivre mes recherches pour
+                  m&apos;installer en France afin de
                   trouver une formation adéquate qui me permettra de développer les compétances nécessaires demandés sur le marché du travail. Je continue à suivre les webinaires de différentes écoles et centres de formation afin de trouver celle qui me correspondrait le mieux en fonction de la méthode d&apos;enseignement.
                   </p>
                 </p>
@@ -183,7 +183,7 @@ const Roadmap = () => {
                 </h2>
                 <p className="leading-relaxed pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
                   Je trouve enfin ma formation en développement web fullstack au centre de
-                  formation de l&apos;ACS (Access Code School) à Meaux. Là bas,
+                  formation de l&apos;ACS - Access Code School à Meaux. Là bas,
                   j&apos;apprends le métier de
                   développeur web full stack au travers de nombreux projets et technologies, me permettant de préparer le titre professionnel de développeur web et web mobile de niveau III. 
                 </p>
