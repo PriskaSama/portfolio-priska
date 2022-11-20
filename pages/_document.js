@@ -13,8 +13,8 @@ export default function Document() {
       <body className="font-silkscreen">
         <Main />
         <NextScript />
-        <Script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E"></Script>
-        <Script defer>AOS.init();</Script>
+        <Script id="my-script" defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E"></Script>
+        <Script id="my-script" defer>Aos.init();</Script>
       </body>
     </Html>
   );
