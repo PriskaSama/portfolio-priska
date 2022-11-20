@@ -1,4 +1,4 @@
-import link from "next/link";
+import Link from "next/link";
 
 let styles = {
   error: "flex w-screen h-screen items-center justify-center",
