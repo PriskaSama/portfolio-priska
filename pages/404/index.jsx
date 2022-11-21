@@ -7,7 +7,7 @@ let styles = {
 const error404 = () => {
   return (
     <div className={styles.error}>
-      <h1>ERREUR 404...triste, tu t&apos;es trompé</h1>
+      <h1>ERREUR 404...Oops, tu t&apos;es trompé</h1>
       <Link href="/index.html">
         <button>Retour à la page d&apos;accueil</button>
       </Link>

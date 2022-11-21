@@ -1,10 +1,10 @@
 import Image from "next/image";
 // import mermaid from "@src/assets/img/mermaid.png";
 import priskapp from "@src/assets/img/priskapp.png";
-import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
-import LocationCityIcon from '@mui/icons-material/LocationCity';
-import BakeryDiningIcon from '@mui/icons-material/BakeryDining';
-import SchoolIcon from '@mui/icons-material/School';
+import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
+import LocationCityIcon from "@mui/icons-material/LocationCity";
+import BakeryDiningIcon from "@mui/icons-material/BakeryDining";
+import SchoolIcon from "@mui/icons-material/School";
 
 let styles = {
   template: "grid text-left bg-black text-white py-12 font-roboto",
@@ -21,20 +21,23 @@ const Roadmap = () => {
     // ROADMAP, SUMMARIZE CV
     <main className={styles.template}>
       <h1 className={styles.title} id="mon-parcours">
-        <span className="pr-2 text-pink-500" data-aos="fade-right"> 03.</span>Mon parcours
+        <span className="pr-2 text-pink-500" data-aos="fade-right">
+          {" "}
+          03.
+        </span>
+        Mon parcours
       </h1>
       <div className={styles.img} data-aos="fade-up-left">
-        <h1 class="text-4xl lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">Mon expérience</h1>
+        <h1 className="text-4xl lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">
+          Mon expérience
+        </h1>
       </div>
       <div className={styles.divimg} data-aos="flip-left">
-      <span className={styles.pp}>
+        <span className={styles.pp}>
           <Image src={priskapp} alt="priskapic" />
-      </span>
+        </span>
       </div>
-      <section
-        className="text-gray-200 body-font"
-        data-aos="zoom-in"
-      >
+      <section className="text-gray-200 body-font" data-aos="zoom-in">
         <div className="container px-5 pb-24 lg:pt-8 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -62,15 +65,34 @@ const Roadmap = () => {
                 <h2 className="font-medium title-font text-pink-500 mb-1 text-xl">
                   Aout 2017
                 </h2>
-                <p className="leading-relaxed" data-aos="zoom-in-left" data-aos-duration="1500">
-                  Je termine ma licence en commerce international à l&apos;université
-                  de la Sorbonne Nouvelle sur Paris.
+                <p
+                  className="leading-relaxed"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  Je termine ma licence en commerce international à
+                  l&apos;université de la Sorbonne Nouvelle sur Paris.
                 </p>
-                <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
-                  A la suite de cela, ne sachant pas dans quel métier spécifique me lancer et m&apos;appercevant que finallement je n&apos;appréciais pas vraiment le secteur du commerce car celui-ci ne m&apos;offrait pas assez de créativité, de challenges et d&apos;opportunités en géneral.
-                  <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
-                  Je souhaitais également améliorer mes compétances en anglais oral; Ainsi j&apos;ai donc décidé de tout quitter pour partir m&apos;installer à Londres quelques années afin de mûrir mon projet professionel.
-                  </p>
+                <p
+                  className="pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  A la suite de cela, ne sachant pas dans quel métier spécifique
+                  me lancer et m&apos;appercevant que finallement je
+                  n&apos;appréciais pas vraiment le secteur du commerce car
+                  celui-ci ne m&apos;offrait pas assez de créativité, de
+                  challenges et d&apos;opportunités en géneral.
+                </p>
+                <p
+                  className="pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  Je souhaitais également améliorer mes compétances en anglais
+                  oral; Ainsi j&apos;ai donc décidé de tout quitter pour partir
+                  m&apos;installer à Londres quelques années afin de mûrir mon
+                  projet professionel.
                 </p>
               </div>
             </div>
@@ -101,18 +123,36 @@ const Roadmap = () => {
                 <h2 className="font-medium title-font text-pink-500 mb-1 text-xl">
                   Mai 2020
                 </h2>
-                <p className="leading-relaxed" data-aos="zoom-in-left" data-aos-duration="1500">
-                  Je suis Team Lead en relation client à Londres. J&apos;apprécie cette nouvelle expérience et mon poste me plaît, mais je continue toujours à réfléchir à mes véritables passions et comment je pourrais en faire des métiers concret. L&apos;épidémie
-                  Covid-19 arrive..
+                <p
+                  className="leading-relaxed"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  Je suis Team Lead en relation client à Londres.
+                  J&apos;apprécie cette nouvelle expérience et mon poste me
+                  plaît, mais je continue toujours à réfléchir à mes véritables
+                  passions et comment je pourrais en faire des métiers concret.
+                  L&apos;épidémie Covid-19 arrive..
                 </p>
-                <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
-                  C&apos;est à ce moment précis en étant en télétravail chez moi que
-                  je décide de me focaliser sur ma futur carrière
+                <p
+                  className="pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  C&apos;est à ce moment précis en étant en télétravail chez moi
+                  que je décide de me focaliser sur ma futur carrière
                   professionelle.
                 </p>
-                <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
-                  J&apos;assiste à de nombreux webinaire pour comprendre les métiers
-                  du web. J&apos;ai la chance de pouvoir suivre durant une semaine des développeurs front-end à mon travail et comprendre en quoi consiste le métier. Je m&apos;inscris sur Codecademy afin d&apos;en apprendre plus.
+                <p
+                  className="pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  J&apos;assiste à de nombreux webinaire pour comprendre les
+                  métiers du web. J&apos;ai la chance de pouvoir suivre durant
+                  une semaine des développeurs front-end à mon travail et
+                  comprendre en quoi consiste le métier. Je m&apos;inscris sur
+                  Codecademy afin d&apos;en apprendre plus.
                 </p>
               </div>
             </div>
@@ -144,12 +184,25 @@ const Roadmap = () => {
                 <h2 className="font-medium title-font text-pink-500 mb-1 text-xl">
                   Novembre 2021
                 </h2>
-                <p className="leading-relaxed pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
+                <p
+                  className="leading-relaxed pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
                   Je décide de démissioner de mon poste à Londres.
-                  <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">Je retourne
-                  m&apos;installer en France afin de
-                  trouver une formation adéquate qui me permettra de développer les compétances nécessaires demandés sur le marché du travail. Je continue à suivre les webinaires de différentes écoles et centres de formation afin de trouver celle qui me correspondrait le mieux en fonction de la méthode d&apos;enseignement.
-                  </p>
+                </p>
+                <p
+                  className="pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  Je retourne m&apos;installer en France afin de trouver une
+                  formation adéquate qui me permettra de développer les
+                  compétances nécessaires demandés sur le marché du travail. Je
+                  continue à suivre les webinaires de différentes écoles et
+                  centres de formation afin de trouver celle qui me
+                  correspondrait le mieux en fonction de la méthode
+                  d&apos;enseignement.
                 </p>
               </div>
             </div>
@@ -181,13 +234,26 @@ const Roadmap = () => {
                 <h2 className="font-medium title-font mb-1 text-xl text-pink-500">
                   Juin 2022
                 </h2>
-                <p className="leading-relaxed pt-2" data-aos="zoom-in-left" data-aos-duration="1500">
-                  Je trouve enfin ma formation en développement web fullstack au centre de
-                  formation de l&apos;ACS - Access Code School à Meaux. Là bas,
-                  j&apos;apprends le métier de
-                  développeur web full stack au travers de nombreux projets et technologies, me permettant de préparer le titre professionnel de développeur web et web mobile de niveau III. 
+                <p
+                  className="leading-relaxed pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  Je trouve enfin ma formation en développement web fullstack au
+                  centre de formation de l&apos;ACS - Access Code School à
+                  Meaux. Là bas, j&apos;apprends le métier de développeur web
+                  full stack au travers de nombreux projets et technologies, me
+                  permettant de préparer le titre professionnel de développeur
+                  web et web mobile de niveau III.
                 </p>
-                <p className="pt-2" data-aos="zoom-in-left" data-aos-duration="1500">Cela a été un véritable tremplin dans cette nouvelle aventure que j&apos;ai décidé de poursuivre.</p>
+                <p
+                  className="pt-2"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1500"
+                >
+                  Cela a été un véritable tremplin dans cette nouvelle aventure
+                  que j&apos;ai décidé de poursuivre.
+                </p>
               </div>
             </div>
           </div>
