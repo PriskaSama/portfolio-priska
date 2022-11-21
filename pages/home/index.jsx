@@ -5,8 +5,8 @@ const HomePage = () => {
   return (
     <>
  
-      <ParticlesAnime />
       <Layout />
+      <ParticlesAnime />
     </>
   );
 };

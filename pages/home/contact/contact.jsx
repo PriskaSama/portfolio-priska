@@ -11,7 +11,7 @@ let styles = {
   intro: "py-4",
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
-  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-500 p-2 w-full",
+  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400 p-2 w-full",
   iconsSpace: "ml-4",
   animateBounce: "animate-bounce w-6 h-6 ml-12",
 };
@@ -93,7 +93,7 @@ const Contacts = () => {
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <div className={styles.zoomanim}>
-              <Link className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr">contact@derville-portfolio.fr</Link>
+              <Link className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr" aria-label="link to email">contact@derville-portfolio.fr</Link>
               </div>
               <p className="leading-normal my-5">77100, Meaux</p>
               <span className="inline-flex">
@@ -101,12 +101,14 @@ const Contacts = () => {
                   <Link
                     href="https://www.linkedin.com/in/dervilleprisca/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
+                    aria-label="link to my Linkedin"
                   >
                     <LinkedInIcon sx={{ fontSize: 30 }} />
                   </Link>
                   <Link
                     href="https://github.com/PriskaSama"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
+                    aria-label="link to my Github"
                   >
                     <GitHubIcon sx={{ fontSize: 30 }} />
                   </Link>
@@ -117,9 +119,9 @@ const Contacts = () => {
         </div>
       </div>
       <div className="flex justify-end">
-        <AnchorLink href="#nav">
+        <AnchorLink href="#nav" aria-label="link to nav bar">
           <KeyboardDoubleArrowUpIcon
-            className={`{styles.animateBounce} ${styles.zoomanim}`}
+            className={`${styles.animateBounce} ${styles.zoomanim}`}
           />
         </AnchorLink>
       </div>

@@ -59,10 +59,11 @@ const Intro = () => {
           <Link
             href="https://www.linkedin.com/in/dervilleprisca/"
             className={styles.zoomanim}
+            aria-label="link to my Linkedin"
           >
             <LinkedInIcon sx={{ fontSize: 30 }} />
           </Link>
-          <Link href="https://github.com/PriskaSama" className={styles.iconsSpace}>
+          <Link href="https://github.com/PriskaSama" className={styles.iconsSpace} aria-label="link to my Github">
             <GitHubIcon sx={{ fontSize: 30 }} />
           </Link>
         </div>
@@ -70,7 +71,7 @@ const Intro = () => {
           <p className="text-pink-500">Cliquez en dessous pour voir la suite</p>
         </div>
         <div className={styles.profilphoto}>
-          <AnchorLink href="#about">
+          <AnchorLink href="#about" aria-label="link to about part">
             <KeyboardDoubleArrowDownIcon
               className={`${styles.animateBounce} ${styles.zoomanim}`}
             />
