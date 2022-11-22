@@ -19,7 +19,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Priska Derville
+              Prisca Derville
             </Link>
           </span>
           <p>Made with my blood & tears🩸😭</p>

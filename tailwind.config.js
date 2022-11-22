@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -10,8 +11,8 @@ module.exports = {
     extend: {
       fontFamily: {
         silkscreen: ["silkscreen", "cursive"],
-        roboto: ["roboto", "sans-serif"],
-        montez: ["montez", "cursive"],
+        chakra: ["chakra petch", "sans-serif"],
+
       },
     },
   },

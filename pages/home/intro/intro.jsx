@@ -8,9 +8,9 @@ import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
 let styles = {
-  title: "text-lg py-4 lg:py-0",
-  title2: "uppercase text-4xl",
-  template: "mt-40 h-[81vh] lg:h-screen px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-center lg:items-center",
+  title: "text-lg py-4 lg:py-0 lg:text-5xl",
+  title2: "uppercase text-4xl lg:text-8xl",
+  template: "mt-40 h-[85vh] lg:h-[85vh] px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-evenly lg:items-center lg:pt-8",
   text: "flex flex-row w-full justify-center py-4 text-center",
   intro: "py-16 lg:px-10 lg:text-center",
   profilphoto: "flex justify-center mt-8 lg:mt-0",
@@ -32,7 +32,7 @@ const Intro = () => {
         <div className="text-center lg:flex lg:flex-col lg:items-center lg:pb-8">
           <h1 className={styles.title}>Bonjour, moi c&apos;est</h1>
           <h1 className={styles.title2}>Prisca Derville</h1>
-          <h1 className="text-center">Et je suis une</h1>
+          <h1 className="text-center lg:text-5xl">Et je suis une</h1>
           <h1 className={styles.title}>
             <TypeAnimation
               sequence={[

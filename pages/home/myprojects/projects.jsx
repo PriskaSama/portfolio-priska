@@ -4,15 +4,16 @@ import landingpage from "@src/assets/img/landingpage.png";
 import metadev from "@src/assets/img/metadevservice.png";
 import mazebank from "@src/assets/img/maze-bank.png";
 import metadevshop from "@src/assets/img/metadevshop.png";
+import cvpriska from "@src/assets/img/cv-priska.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
+import LaunchIcon from '@mui/icons-material/Launch';
 import * as React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
 
 let styles = {
-  template: "flex flex-col items-center px-8 py-12 font-roboto",
+  template: "flex flex-col items-center px-8 py-12 font-chakra font-bold",
   template2: "flex flex-col justify-center",
   template3: "lg:flex lg:flex-row",
   title: "flex flex-start w-full uppercase text-2xl pb-20",
@@ -42,7 +43,7 @@ const Projects = () => {
       {/* PROJET 1 */}
       <div className={styles.template3}>
       <section
-          className="text-gray-700 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
           data-aos="fade-left"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
@@ -85,18 +86,18 @@ const Projects = () => {
               <p className="mt-8 italic font-bold">En Vanilla CSS </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <Link
+                  <a
                     href="https://github.com/PriskaSama/landing-page0"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://priscad.promo-171.codeur.online/landing-page0/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
-                    <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </Link>
+                    <LaunchIcon sx={{ fontSize: 40 }} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -147,18 +148,18 @@ const Projects = () => {
               <p className="mt-8 italic font-bold">Bootstrap / TailwindCSS </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <Link
+                  <a
                     href="https://github.com/PriskaSama/landing-page0"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://priscad.promo-171.codeur.online/landing-page0/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
-                    <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </Link>
+                    <LaunchIcon sx={{ fontSize: 40 }} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -218,18 +219,18 @@ const Projects = () => {
               </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <Link
+                  <a
                     href="https://github.com/PriskaSama/maze-bank"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://maze-bank-priska.netlify.app/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
-                    <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </Link>
+                    <LaunchIcon sx={{ fontSize: 40 }} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -284,18 +285,18 @@ const Projects = () => {
               </p>
               <div className="flex justify-center">
                 <div className={styles.divImage}>
-                  <Link
+                  <a
                     href="https://github.com/PriskaSama/maze-bank"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://maze-bank-priska.netlify.app/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                   >
-                    <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                  </Link>
+                    <LaunchIcon sx={{ fontSize: 40 }} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -303,64 +304,127 @@ const Projects = () => {
         </section>
       </div>
       {/* PROJET 5 */}
+      <div className={styles.template3}>
       <section
-        className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl hover:scale-125 lg:w-3/5 g:mb-8"
-        data-aos="fade-left"
-      >
-        <div className="container mx-auto flex px-5 pb-8 lg:pt-12 md:flex-row flex-col items-center lg:ml-4">
+          className="text-gray-500 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          data-aos="fade-left"
+        >
+          <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
+            <div className={styles.divImage}>
+              <Image
+                src={cvpriska}
+                alt="cv"
+                height="500"
+                width="350"
+                className={styles.imgproject}
+              />
+            </div>
+            <div className="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+              <h1 className="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
+              CV en ligne
+              </h1>
+              <h2 className={styles.title2}>Projet individuel</h2>
+              <p className="mb-2 leading-relaxed text-left">
+              Notre tout premier projet par groupe de deux. L&apos;objectif
+                était d&apos;intégrer une maquette préalablement créée avec
+                Figma. Et de créer une interface web simple afin d&apos;intégrer
+                celle-ci.
+              </p>
+              <p className="mb-8 leading-relaxed text-left">
+              Et de créer une interface web simple afin d&apos;intégrer
+                celle-ci. L&apos;objectif etant de se familiariser avec les classNamees CSS.
+              </p>
+              <div>
+                <div>
+                  <ul>
+                  <li className="mb-2 leading-relaxed text-left">
+                    Elaboration d&apos;un wireframe.
+                  </li>
+                  <li className="mb-2 leading-relaxed text-left">
+                    Passage en production sur Netlify.
+                  </li>
+                  </ul>
+                </div>
+              </div>
+              <p className="mt-8 italic font-bold">En Vanilla CSS </p>
+              <div className="flex justify-center">
+                <div className={styles.divImage}>
+                  <a
+                    href="https://github.com/PriskaSama/cv"
+                    className={`${styles.iconsSpace} ${styles.zoomanim}`}
+                  >
+                    <GitHubIcon sx={{ fontSize: 40 }} />
+                  </a>
+                  <a
+                    href="https://cv-priscaderville.netlify.app"
+                    className={`${styles.iconsSpace} ${styles.zoomanim}`}
+                  >
+                    <LaunchIcon sx={{ fontSize: 40 }} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* PROJET 6 */}
+        <section
+          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          data-aos="fade-right"
+        >
+          <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
           <div className={styles.divImage}>
             <Image
               src={metadevshop}
-              alt="landingpage"
+              alt="metadevshop"
               height="500"
               width="350"
               className={styles.imgproject}
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-16 lg:pr-4 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
+            <div className="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+              <h1 className="title-font pt-4 sm:text-4xl text-3xl mb-4 font-medium text-pink-500">
               TP Boutique
-            </h1>
-            <h2 className={styles.title2}>Projet de groupe</h2>
-            <p className="mb-2 leading-relaxed text-left">
+              </h1>
+              <h2 className={styles.title2}>Projet de groupe</h2>
+              <p className="mb-2 leading-relaxed text-left">
               Projet en lien avec l&apos;agence web. Nous devions créer par
               groupe de quatre une boutique e-commerce via le CMS Wordpress.
               Proposant nos services préalablement décris sur notre site web
               ainsi que des produits dérivés.
-            </p>
-            <p className="mb-8 leading-relaxed text-left">
-              J&apos;ai également crée une page Linkedin active pour ce projet.
-            </p>
-            <div>
-              <ul>
-              <li className="mb-2 leading-relaxed text-left">
-                Elaboration d&apos;un wireframe.
-              </li>
-              <li className="mb-2 leading-relaxed text-left">
+              </p>
+              <p className="mb-8 leading-relaxed text-left">
+               Hébergement du site sur un nom de domaine Ionos.
+              </p>
+              <div>
+                <div>
+                  <ul>
+                  <li className="mb-2 leading-relaxed text-left">
+                  J&apos;ai également crée une page aedin active pour ce projet.
+                  </li>
+                  <li className="mb-2 leading-relaxed text-left">
                 Initiation a Wordpress et PHP.
               </li>
               <li className="mb-2 leading-relaxed text-left">
                 Mise à jour du cahier des charges de l&apos;agence web.
               </li>
-              <li className="mb-2 leading-relaxed text-left">
-                Hébergement sur nom de domaine Ionos.
-              </li>
-              </ul>
-            </div>
-            <p className="mt-8 italic font-bold">Wordpress / Elementor / Ionos</p>
+                  </ul>
+                </div>
+              </div>
+              <p className="mt-8 italic font-bold">Wordpress / Elementor / Ionos</p>
             <div className="flex justify-center">
               <div className={styles.divImage}>
-                <Link
+                <a
                   href="https://metadev-mrp.fr/"
                   className={`${styles.iconsSpace} ${styles.zoomanim}`}
                 >
-                  <OpenInBrowserIcon sx={{ fontSize: 40 }} />
-                </Link>
+                  <LaunchIcon sx={{ fontSize: 40 }} />
+                </a>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 };

@@ -12,12 +12,12 @@ import Link from "next/link";
 import priskapp from "@src/assets/img/priskapp.png";
 
 let styles = {
-  template: "grid text-left px-8 py-12 bg-black text-white font-roboto",
+  template: "flex flex-col text-left px-8 py-12 bg-black text-white font-chakra",
   skills: "grid grid-cols-2 gap-8 list-none uppercase py-20",
   profilepic: "flex justify-center py-8",
   title: "text-2xl uppercase pb-20",
   spacebtw: "mt-8",
-  title2: "text-4xl lg:text-5xl pb-20 font-silkscreen text-pink-500 hover:scale-110 hover:ease-in hover:duration-300",
+  title2: "text-4xl lg:text-5xl pb-20 pl-8 font-silkscreen text-pink-500 hover:scale-110 hover:ease-in hover:duration-300",
   hoverzoom: "hover:scale-100",
   img: "w-16 h-16 bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
   img2: "bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
@@ -33,9 +33,9 @@ const About = () => {
       <h2 className={styles.title} id="a-propos">
         <span className="text-pink-600 pr-2" data-aos="fade-right">01.</span>A propos
       </h2>
-      <section className="text-gray-200 body-font" data-aos="fade-up">
-        <div className="container px-5 py-12 mx-auto">
-          <div className="flex flex-col w-full mb-20 lg:text-center">
+      <section className="text-gray-100 body-font" data-aos="fade-up">
+        <div className="container lg:px-5 py-12 lg:mx-auto">
+          <div className="flex flex-col lg:w-full mb-20 lg:text-center">
             <h1 className={styles.title2} data-aos="flip-right">Hello world!</h1>
             <div className={styles.divimg} data-aos="flip-left">
         <span className={styles.pp}>
@@ -55,7 +55,7 @@ const About = () => {
                 2020, mais l&apos;informatique en général a toujours été
                 l&apos;une de mes passions les plus chère.
               </p>
-              <p className="mx-auto leading-relaxed text-base mt-8 lg:text-lg font-bold text-pink-500">
+              <p className="mx-auto leading-relaxed text-base mt-8 lg:text-lg font-extrabold text-pink-500">
                 Voici un petit aperçu des technologies que j&apos;utilise :
               </p>
             </div>

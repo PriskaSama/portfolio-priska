@@ -7,7 +7,7 @@ import BakeryDiningIcon from "@mui/icons-material/BakeryDining";
 import SchoolIcon from "@mui/icons-material/School";
 
 let styles = {
-  template: "grid text-left bg-black text-white py-12 font-roboto",
+  template: "grid text-left bg-black text-white py-12 font-chakra",
   title: "uppercase pb-20 pl-4 text-2xl",
   img: "flex justify-center py-8",
   text: "py-12",
@@ -57,7 +57,7 @@ const Roadmap = () => {
                 <FlightTakeoffIcon sx={{ fontSize: 40 }} />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0 px-4 py-4 hover:bg-pink-800/50 rounded-3xl">
-                <h2 className="font-medium title-font text-pink-500 mb-1 text-xl">
+                <h2 className="font-medium title-font text-pink-500 mb-1 text-xl font-silkscreen">
                   Aout 2017
                 </h2>
                 <p
@@ -115,7 +115,7 @@ const Roadmap = () => {
                 <LocationCityIcon sx={{ fontSize: 40 }} />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 py-4 sm:mt-0 px-4 hover:bg-pink-800/50 rounded-3xl">
-                <h2 className="font-medium title-font text-pink-500 mb-1 text-xl">
+                <h2 className="font-medium title-font text-pink-500 mb-1 text-xl font-silkscreen">
                   Mai 2020
                 </h2>
                 <p
@@ -176,7 +176,7 @@ const Roadmap = () => {
                 <BakeryDiningIcon sx={{ fontSize: 40 }} />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 py-4 sm:mt-0 px-4 hover:bg-pink-800/50 rounded-3xl">
-                <h2 className="font-medium title-font text-pink-500 mb-1 text-xl">
+                <h2 className="font-medium title-font text-pink-500 mb-1 text-xl font-silkscreen">
                   Novembre 2021
                 </h2>
                 <p
@@ -226,7 +226,7 @@ const Roadmap = () => {
                 <SchoolIcon sx={{ fontSize: 40 }} />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 py-4 sm:mt-0 px-4 hover:bg-pink-800/50 rounded-3xl">
-                <h2 className="font-medium title-font mb-1 text-xl text-pink-500">
+                <h2 className="font-medium title-font mb-1 text-xl text-pink-500 font-silkscreen">
                   Juin 2022
                 </h2>
                 <p

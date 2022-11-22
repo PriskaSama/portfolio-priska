@@ -6,12 +6,12 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 import Link from "next/link";
 
 let styles = {
-  template: "font-roboto grid text-left px-8 py-12 text-gray-600 body-font relative",
+  template: "font-chakra grid text-left px-8 py-12 text-gray-600 body-font relative",
   title: "text-2xl uppercase pb-20 text-gray-900",
   intro: "py-4",
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
-  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400 p-2 w-full",
+  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400 p-2 w-full ",
   iconsSpace: "ml-4",
   animateBounce: "animate-bounce w-6 h-6 ml-12",
 };
@@ -34,7 +34,7 @@ const Contacts = () => {
           <h1 className="text-4xl pb-20 lg:text-5xl font-silkscreen text-pink-600 hover:scale-110 hover:ease-in hover:duration-300" data-aos="flip-right">
             Contactez moi
           </h1>
-          <p className="leading-relaxed text-base" data-aos="fade-up-left">
+          <p className="leading-relaxed text-base font-bold" data-aos="fade-up-left">
             Que ce soit pour me proposer un job, un projet en collaboration ou
             juste me faire un petit coucou, n&apos;hésitez pas à m&apos;envoyez un message
             😊
@@ -44,7 +44,7 @@ const Contacts = () => {
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                <label htmlFor="name" className="leading-7 text-sm text-gray-600 font-bold">
                   Nom
                 </label>
                 <input
@@ -58,7 +58,7 @@ const Contacts = () => {
             </div>
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+                <label htmlFor="email" className="leading-7 text-sm text-gray-600 font-bold">
                   Email
                 </label>
                 <input
@@ -74,7 +74,7 @@ const Contacts = () => {
               <div className="relative">
                 <label
                   htmlFor="message"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm text-gray-600 font-bold"
                 >
                   Message
                 </label>
@@ -87,43 +87,35 @@ const Contacts = () => {
               </div>
             </div>
             <div className={styles.zoomanim}>
-              <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none rounded text-lg hover:scale-125 hover:ease-in hover:duration-300 hover:text-black">
+              <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none rounded text-lg hover:scale-125 hover:ease-in hover:duration-300 hover:text-black font-bold">
                 Envoyer
               </button>
             </div>
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-400 text-center">
               <div className={styles.zoomanim}>
-              <Link className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800" href="mailto:contact@derville-portfolio.fr" aria-label="link to email">contact@derville-portfolio.fr</Link>
+              <a className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800 font-bold" href="mailto:contact@derville-portfolio.fr" aria-label="link to email"><a>contact@derville-portfolio.fr</a></a>
               </div>
-              <p className="leading-normal my-5">77100, Meaux</p>
-              <span className="inline-flex">
+              <span className="inline-flex mt-4">
                 <div className={styles.icons}>
-                  <Link
+                  <a
                     href="https://www.linkedin.com/in/dervilleprisca/"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                     aria-label="link to my Linkedin"
                   >
                     <LinkedInIcon sx={{ fontSize: 30 }} />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://github.com/PriskaSama"
                     className={`${styles.iconsSpace} ${styles.zoomanim}`}
                     aria-label="link to my Github"
                   >
                     <GitHubIcon sx={{ fontSize: 30 }} />
-                  </Link>
+                  </a>
                 </div>
               </span>
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex justify-end">
-        <AnchorLink href="#nav" aria-label="link to nav bar">
-          <KeyboardDoubleArrowUpIcon
-            className={`${styles.animateBounce} ${styles.zoomanim}`}
-          />
-        </AnchorLink>
       </div>
     </section>
   );

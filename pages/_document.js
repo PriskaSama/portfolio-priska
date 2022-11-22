@@ -6,8 +6,8 @@ export default function Document() {
     <Html lang="fr">
       <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https://fonts.googleapis.com/css2?family=Montez&family=Roboto+Slab:wght@300;500&family=Silkscreen&display=swap" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Silkscreen&display=swap" rel="stylesheet" />
       </Head>
 
       <body className="font-silkscreen">

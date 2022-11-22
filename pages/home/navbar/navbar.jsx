@@ -11,7 +11,7 @@ let styles = {
   div2: "lg:grid lg:col-span-2",
   div3: "lg:flex lg:flex-col lg:justify-center lg:pt-4",
   div4: "lg:flex lg:justify-center py-8",
-  ul: "uppercase lg:flex lg:flex-row lg:items-center lg:justify-end hidden lg:text-md font-roboto",
+  ul: "uppercase lg:flex lg:flex-row lg:items-center lg:justify-end hidden lg:text-md font-chakra font-extrabold",
   spaceul: "mx-12",
   hover: "hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
   fontmontez: "font-silkscreen text-3xl text-pink-500 lg:text-4xl",
@@ -20,7 +20,7 @@ let styles = {
 
 const Navbar = () => {
   return (
-    <nav id="nav" className={styles.navbar}>
+    <nav className={styles.navbar}>
       {/* LOGO */}
       <div className={styles.name}>
         <div className={styles.logo}>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <ul className={styles.ul}>
               <li className={styles.hover}>
                 <Link id="home" href="https://derville-portfolio.fr">
-                  Accueil
+                  <a href="">Accueil</a>
                 </Link>
               </li>
               <li className={`${styles.spaceul} ${styles.hover}`}>
