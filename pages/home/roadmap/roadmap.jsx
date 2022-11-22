@@ -9,7 +9,7 @@ import SchoolIcon from "@mui/icons-material/School";
 let styles = {
   template: "grid text-left bg-black text-white py-12 font-roboto",
   title: "uppercase pb-20 pl-4 text-2xl",
-  img: "flex justify-center pt-8",
+  img: "flex justify-center py-8",
   text: "py-12",
   space: "py-4",
   divimg: "w-screen lg:h-[23rem] lg:ml-12 flex justify-center",
@@ -28,14 +28,9 @@ const Roadmap = () => {
         Mon parcours
       </h1>
       <div className={styles.img} data-aos="fade-up-left">
-        <h1 className="text-4xl lg:text-6xl font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">
+        <h1 className="text-4xl lg:text-5xl font-silkscreen text-pink-500 hover:scale-110 hover:ease-in hover:duration-300">
           Mon expérience
         </h1>
-      </div>
-      <div className={styles.divimg} data-aos="flip-left">
-        <span className={styles.pp}>
-          <Image src={priskapp} alt="priskapic" />
-        </span>
       </div>
       <section className="text-gray-200 body-font" data-aos="zoom-in">
         <div className="container px-5 pb-24 lg:pt-8 mx-auto flex flex-wrap">

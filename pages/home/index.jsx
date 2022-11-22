@@ -1,10 +1,23 @@
 import Layout from "@src/components/layouts/layout";
 import { ParticlesAnime } from "@src/components/tools/particles";
+import { Loader } from "@src/components/loader/loader";
+
+//  use state
+import React, { useState, useEffect } from "react";
 
 const HomePage = () => {
-  return (
+  const [loader, setLoader] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false);
+    }, 2000);
+  }, []);
+
+  return loader ? (
+    <Loader />
+  ) : (
     <>
- 
       <Layout />
       <ParticlesAnime />
     </>

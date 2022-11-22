@@ -4,17 +4,18 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 import Link from "next/link";
 
 let styles = {
-  navbar: "lg:h-[15vh] bg-black/90 backdrop-blur text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
+  navbar: "lg:h-[12vh] bg-black/90 backdrop-blur text-white lg:grid lg:grid-cols-3 fixed top-0 w-full overflow-hidden z-20",
   name: "flex justify-around lg:justify-center lg:items-center",
   logo: "h-auto pt-2 w-24 lg:hidden",
   divnav: "flex justify-end items-center lg:items-center lg:justify-end lg:space-evenly mr-8 my-4 lg:pb-4",
   div2: "lg:grid lg:col-span-2",
   div3: "lg:flex lg:flex-col lg:justify-center lg:pt-4",
   div4: "lg:flex lg:justify-center py-8",
-  ul: "uppercase lg:flex lg:flex-row lg:justify-end hidden lg:text-xl font-roboto",
+  ul: "uppercase lg:flex lg:flex-row lg:items-center lg:justify-end hidden lg:text-md font-roboto",
   spaceul: "mx-12",
   hover: "hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
-  fontmontez: "font-montez text-5xl text-pink-500 lg:text-7xl",
+  fontmontez: "font-silkscreen text-3xl text-pink-500 lg:text-4xl",
+  borderstyle: "border border-pink-400 rounded-md px-4 py-2",
 };
 
 const Navbar = () => {
@@ -50,10 +51,9 @@ const Navbar = () => {
               <li className={styles.hover}>
                 <AnchorLink href="#contact">Contact</AnchorLink>
               </li>
-              <li className={`${styles.spaceul} ${styles.hover}`}>
+              <li className={`${styles.spaceul} ${styles.hover} ${styles.borderstyle}`}>
                 <Link
                   href="/docs/CV-PriscaDerville.pdf"
-                  className="border border-pink-400 rounded-md px-4 py-2"
                 >
                   Mon CV
                 </Link>

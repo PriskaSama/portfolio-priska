@@ -9,6 +9,7 @@ import js from "@src/assets/img/js.png";
 import css from "@src/assets/img/css.png";
 import html from "@src/assets/img/html.png";
 import Link from "next/link";
+import priskapp from "@src/assets/img/priskapp.png";
 
 let styles = {
   template: "grid text-left px-8 py-12 bg-black text-white font-roboto",
@@ -16,11 +17,13 @@ let styles = {
   profilepic: "flex justify-center py-8",
   title: "text-2xl uppercase pb-20",
   spacebtw: "mt-8",
-  title2: "text-4xl lg:text-6xl  pb-20 font-montez text-pink-500 hover:scale-110 hover:ease-in hover:duration-300",
+  title2: "text-4xl lg:text-5xl pb-20 font-silkscreen text-pink-500 hover:scale-110 hover:ease-in hover:duration-300",
   hoverzoom: "hover:scale-100",
   img: "w-16 h-16 bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
   img2: "bg-black object-cover object-center flex-shrink-0 rounded-full mr-4",
-  introbox: "text-justify lg:w-2/3 lg:pt-8",
+  introbox: "text-justify lg:w-2/3 lg:pt-12",
+  divimg: "lg:h-[23rem] flex justify-center",
+  pp: "h-auto w-[600px] lg:w-[600px]",
 };
 
 const About = () => {
@@ -34,6 +37,11 @@ const About = () => {
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-col w-full mb-20 lg:text-center">
             <h1 className={styles.title2} data-aos="flip-right">Hello world!</h1>
+            <div className={styles.divimg} data-aos="flip-left">
+        <span className={styles.pp}>
+          <Image src={priskapp} alt="priskapic" />
+        </span>
+      </div>
             <div className={styles.introbox} data-aos="fade-up-right" data-aos-duration="1500">
               <p>Je suis une dev web junior spécialisée en front-end.</p>
               <p className="pt-2">

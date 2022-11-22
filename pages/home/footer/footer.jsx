@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 let styles = {
-  template1: "bg-black/90 w-full mt-auto h-28 flex justify-center items-center font-silkscreen text-md",
+  template1: "bg-black w-full mt-auto h-28 flex justify-center items-center font-silkscreen text-md",
   template2: "text-white text-center",
 };
 

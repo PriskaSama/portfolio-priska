@@ -19,7 +19,7 @@ let styles = {
   title2: "text-2xl text-gray-500 mb-12",
   title3: "text-lg italic",
   title4: "text-xl uppercase pb-20 lg:text-3xl text-gray-200 text-pink-400",
-  title5: "text-4xl pb-20 lg:text-6xl font-montez text-pink-600 hover:scale-110 hover:ease-in hover:duration-300",
+  title5: "text-4xl pb-20 lg:text-5xl font-silkscreen text-pink-600 hover:scale-110 hover:ease-in hover:duration-300",
   tasks: "list-none mt-8",
   div1: "py-4",
   divImage: "pt-4 lg:py-14 lg:pl-8 lg:flex lg:justify-center",
@@ -37,7 +37,7 @@ const Projects = () => {
         <span className="text-pink-600 pr-1" data-aos="fade-right">02.</span>Mes projets
       </h1>
       <div className={styles.title5} data-aos="fade-up-right">
-        <h2>Tour des principaux projets.</h2>
+        <h2>Principaux projets</h2>
       </div>
       {/* PROJET 1 */}
       <div className={styles.template3}>
