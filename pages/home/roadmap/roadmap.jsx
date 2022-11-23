@@ -66,7 +66,7 @@ const Roadmap = () => {
                   data-aos-duration="1500"
                 >
                   Je termine ma licence en commerce international à
-                  l&apos;université de la Sorbonne Nouvelle sur Paris.
+                  l&apos;université de la Sorbonne Nouvelle.
                 </p>
                 <p
                   className="pt-2"
@@ -74,8 +74,8 @@ const Roadmap = () => {
                   data-aos-duration="1500"
                 >
                   A la suite de cela, ne sachant pas dans quel métier spécifique
-                  me lancer et m&apos;appercevant que finallement je
-                  n&apos;appréciais pas vraiment le secteur du commerce car
+                  me lancer et m&apos;appercevant que je
+                  n&apos;appréciais plus le secteur du commerce car
                   celui-ci ne m&apos;offrait pas assez de créativité, de
                   challenges et d&apos;opportunités en géneral.
                 </p>
@@ -193,11 +193,7 @@ const Roadmap = () => {
                 >
                   Je retourne m&apos;installer en France afin de trouver une
                   formation adéquate qui me permettra de développer les
-                  compétances nécessaires demandés sur le marché du travail. Je
-                  continue à suivre les webinaires de différentes écoles et
-                  centres de formation afin de trouver celle qui me
-                  correspondrait le mieux en fonction de la méthode
-                  d&apos;enseignement.
+                  compétances nécessaires demandés sur le marché du travail.
                 </p>
               </div>
             </div>
@@ -234,7 +230,7 @@ const Roadmap = () => {
                   data-aos="zoom-in-left"
                   data-aos-duration="1500"
                 >
-                  Je trouve enfin ma formation en développement web fullstack au
+                  Je trouve ma formation en développement web fullstack au
                   centre de formation de l&apos;ACS - Access Code School à
                   Meaux. Là bas, j&apos;apprends le métier de développeur web
                   full stack au travers de nombreux projets et technologies, me
@@ -247,7 +243,7 @@ const Roadmap = () => {
                   data-aos-duration="1500"
                 >
                   Cela a été un véritable tremplin dans cette nouvelle aventure
-                  que j&apos;ai décidé de poursuivre.
+                  que j&apos;ai décidé de poursuivre en me spécialisant en développement front-end avec React. 
                 </p>
               </div>
             </div>

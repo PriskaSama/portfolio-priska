@@ -8,8 +8,8 @@ import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
 let styles = {
-  title: "text-lg py-4 lg:py-0 lg:text-5xl",
-  title2: "uppercase text-4xl lg:text-8xl",
+  title: "text-lg py-4 lg:py-0 lg:text-4xl",
+  title2: "uppercase text-4xl lg:text-7xl",
   template: "mt-40 h-[85vh] lg:h-[85vh] px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-evenly lg:items-center lg:pt-8",
   text: "flex flex-row w-full justify-center py-4 text-center",
   intro: "py-16 lg:px-10 lg:text-center",

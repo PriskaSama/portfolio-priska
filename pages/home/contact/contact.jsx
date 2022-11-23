@@ -6,12 +6,14 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 import Link from "next/link";
 
 let styles = {
-  template: "font-chakra grid text-left px-8 py-12 text-gray-600 body-font relative",
+  template:
+    "font-chakra grid text-left px-8 py-12 text-gray-600 body-font relative",
   title: "text-2xl uppercase pb-20 text-gray-900",
   intro: "py-4",
   icons: "flex justify-center text-gray-500",
   contactpic: "flex justify-center",
-  zoomanim:"cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400 p-2 w-full ",
+  zoomanim:
+    "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400 p-2 w-full ",
   iconsSpace: "ml-4",
   animateBounce: "animate-bounce w-6 h-6 ml-12",
 };
@@ -27,24 +29,31 @@ const Contacts = () => {
       <div
         className="container px-5 py-12 mx-auto backdrop-blur-sm bg-white/20 rounded-xl"
         data-aos="fade-up"
-  
-        
       >
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="text-4xl pb-20 lg:text-5xl font-silkscreen text-pink-600 hover:scale-110 hover:ease-in hover:duration-300" data-aos="flip-right">
+          <h1
+            className="text-4xl pb-20 lg:text-5xl font-silkscreen text-pink-600 hover:scale-110 hover:ease-in hover:duration-300"
+            data-aos="flip-right"
+          >
             Contactez moi
           </h1>
-          <p className="leading-relaxed text-base font-bold" data-aos="fade-up-left">
+          <p
+            className="leading-relaxed text-base font-bold"
+            data-aos="fade-up-left"
+          >
             Que ce soit pour me proposer un job, un projet en collaboration ou
-            juste me faire un petit coucou, n&apos;hésitez pas à m&apos;envoyez un message
-            😊
+            juste me faire un petit coucou, n&apos;hésitez pas à m&apos;envoyez
+            un message 😊
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="name" className="leading-7 text-sm text-gray-600 font-bold">
+                <label
+                  htmlFor="name"
+                  className="leading-7 text-sm text-gray-600 font-bold"
+                >
                   Nom
                 </label>
                 <input
@@ -58,7 +67,10 @@ const Contacts = () => {
             </div>
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="email" className="leading-7 text-sm text-gray-600 font-bold">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-600 font-bold"
+                >
                   Email
                 </label>
                 <input
@@ -93,7 +105,13 @@ const Contacts = () => {
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-400 text-center">
               <div className={styles.zoomanim}>
-              <a className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800 font-bold" href="mailto:contact@derville-portfolio.fr" aria-label="link to email"><a>contact@derville-portfolio.fr</a></a>
+                <a
+                  className="text-pink-500 cursor-pointer hover:scale-125 focus:outline-none hover:ease-in hover:duration-300 hover:text-pink-800 font-bold"
+                  href="mailto:contact@derville-portfolio.fr"
+                  aria-label="link to email"
+                >
+                  <a>contact@derville-portfolio.fr</a>
+                </a>
               </div>
               <span className="inline-flex mt-4">
                 <div className={styles.icons}>
