@@ -78,7 +78,7 @@ const Roadmap = () => {
                   le secteur du commerce car celui-ci ne m&apos;offrait pas
                   assez de créativité, de challenges et d&apos;opportunités,
                   <span className="text-pink-500"> j&apos;ai décidé de tout quitter pour m&apos;installer à
-                  Londres </span> afin d'améliorer mes compétences en anglais et de
+                  Londres </span> afin d&apos;améliorer mes compétences en anglais et de
                   mûrir mon projet professionnel.
                 </p>
                 {/* <p
@@ -237,7 +237,7 @@ const Roadmap = () => {
                   où j&apos;y apprend le métier de développeur web et web
                   mobile.
                   <br />
-                  J'y acquiert énormément de connaissances au travers de
+                  J&apos;y acquiert énormément de connaissances au travers de
                   nombreux projets et technologies, me permettant de préparer le
                   titre professionnel de développeur web et web mobile de niveau
                   III.
