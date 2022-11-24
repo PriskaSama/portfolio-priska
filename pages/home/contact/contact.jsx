@@ -35,7 +35,7 @@ const Contacts = () => {
             className="text-4xl pb-20 lg:text-5xl font-silkscreen text-pink-600 hover:scale-110 hover:ease-in hover:duration-300"
             data-aos="flip-right"
           >
-            Contactez moi
+            Me Contacter
           </h1>
           <p
             className="leading-relaxed text-base font-bold"
@@ -54,7 +54,7 @@ const Contacts = () => {
                   htmlFor="name"
                   className="leading-7 text-sm text-gray-600 font-bold"
                 >
-                  Nom
+                  Votre nom :
                 </label>
                 <input
                   type="text"
@@ -71,7 +71,7 @@ const Contacts = () => {
                   htmlFor="email"
                   className="leading-7 text-sm text-gray-600 font-bold"
                 >
-                  Email
+                  Votre e-mail :
                 </label>
                 <input
                   type="email"
@@ -88,7 +88,7 @@ const Contacts = () => {
                   htmlFor="message"
                   className="leading-7 text-sm text-gray-600 font-bold"
                 >
-                  Message
+                  Votre message :
                 </label>
                 <textarea
                   id="message"

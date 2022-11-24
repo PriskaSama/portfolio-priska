@@ -74,12 +74,14 @@ const Roadmap = () => {
                   data-aos-duration="1500"
                 >
                   A la suite de cela, ne sachant pas dans quel métier spécifique
-                  me lancer et m&apos;appercevant que je
-                  n&apos;appréciais plus le secteur du commerce car
-                  celui-ci ne m&apos;offrait pas assez de créativité, de
-                  challenges et d&apos;opportunités en géneral.
+                  me lancer et m&apos;appercevant que je n&apos;appréciais plus
+                  le secteur du commerce car celui-ci ne m&apos;offrait pas
+                  assez de créativité, de challenges et d&apos;opportunités,
+                  <span className="text-pink-500"> j&apos;ai décidé de tout quitter pour m&apos;installer à
+                  Londres </span> afin d'améliorer mes compétences en anglais et de
+                  mûrir mon projet professionnel.
                 </p>
-                <p
+                {/* <p
                   className="pt-2"
                   data-aos="zoom-in-left"
                   data-aos-duration="1500"
@@ -88,7 +90,7 @@ const Roadmap = () => {
                   oral; Ainsi j&apos;ai donc décidé de tout quitter pour partir
                   m&apos;installer à Londres quelques années afin de mûrir mon
                   projet professionel.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -125,8 +127,8 @@ const Roadmap = () => {
                 >
                   Je suis Team Lead en relation client à Londres.
                   J&apos;apprécie cette nouvelle expérience et mon poste me
-                  plaît, mais je continue toujours à réfléchir à mes véritables
-                  passions et comment je pourrais en faire des métiers concret.
+                  plaît mais je continue à réfléchir à mes véritables
+                  passions et comment je pourrais en faire un métier concret.
                   L&apos;épidémie Covid-19 arrive..
                 </p>
                 <p
@@ -144,10 +146,10 @@ const Roadmap = () => {
                   data-aos-duration="1500"
                 >
                   J&apos;assiste à de nombreux webinaire pour comprendre les
-                  métiers du web. J&apos;ai la chance de pouvoir suivre durant
-                  une semaine des développeurs front-end à mon travail et
-                  comprendre en quoi consiste le métier. Je m&apos;inscris sur
-                  Codecademy afin d&apos;en apprendre plus.
+                  métiers du web. J&apos;ai la chance de pouvoir <span className="text-pink-500"> suivre durant
+                  une semaine des développeurs Front-End sur mon lieu de travail </span> 
+                  et comprendre en quoi consiste le métier. Je m&apos;inscris
+                  sur Codecademy afin d&apos;en apprendre plus.
                 </p>
               </div>
             </div>
@@ -190,10 +192,10 @@ const Roadmap = () => {
                   className="pt-2"
                   data-aos="zoom-in-left"
                   data-aos-duration="1500"
-                >
-                  Je retourne m&apos;installer en France afin de trouver une
+                > <span className="text-pink-500">Je retourne m&apos;installer en France </span>
+                    afin de trouver une
                   formation adéquate qui me permettra de développer les
-                  compétances nécessaires demandés sur le marché du travail.
+                  compétences nécessaires attendues sur le marché du travail.
                 </p>
               </div>
             </div>
@@ -230,12 +232,15 @@ const Roadmap = () => {
                   data-aos="zoom-in-left"
                   data-aos-duration="1500"
                 >
-                  Je trouve ma formation en développement web fullstack au
-                  centre de formation de l&apos;ACS - Access Code School à
-                  Meaux. Là bas, j&apos;apprends le métier de développeur web
-                  full stack au travers de nombreux projets et technologies, me
-                  permettant de préparer le titre professionnel de développeur
-                  web et web mobile de niveau III.
+                  Je trouve ma <span className="text-pink-500">formation en développement web FullStack au
+                  centre de formation de l&apos;ACS - Access Code School à Meaux </span> 
+                  où j&apos;y apprend le métier de développeur web et web
+                  mobile.
+                  <br />
+                  J'y acquiert énormément de connaissances au travers de
+                  nombreux projets et technologies, me permettant de préparer le
+                  titre professionnel de développeur web et web mobile de niveau
+                  III.
                 </p>
                 <p
                   className="pt-2"
@@ -243,7 +248,8 @@ const Roadmap = () => {
                   data-aos-duration="1500"
                 >
                   Cela a été un véritable tremplin dans cette nouvelle aventure
-                  que j&apos;ai décidé de poursuivre en me spécialisant en développement front-end avec React. 
+                  que j&apos;ai décidé de poursuivre en me spécialisant en
+                  développement web Front-End React.
                 </p>
               </div>
             </div>
