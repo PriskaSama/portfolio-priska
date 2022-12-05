@@ -32,8 +32,8 @@ const Roadmap = () => {
           Mon expérience
         </h1>
       </div>
-      <section className="text-gray-200 body-font" data-aos="zoom-in">
-        <div className="container px-5 pb-24 lg:pt-8 mx-auto flex flex-wrap">
+      <section className="text-gray-200 body-font lg:text-xl" data-aos="zoom-in">
+        <div className="container px-5 pb-24 lg:pt-32 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
@@ -129,14 +129,13 @@ const Roadmap = () => {
                   J&apos;apprécie cette nouvelle expérience et mon poste me
                   plaît mais je continue à réfléchir à mes véritables
                   passions et comment je pourrais en faire un métier concret.
-                  L&apos;épidémie Covid-19 arrive..
                 </p>
                 <p
                   className="pt-2"
                   data-aos="zoom-in-left"
                   data-aos-duration="1500"
                 >
-                  C&apos;est à ce moment précis en étant en télétravail chez moi
+                  Le Covid arrive, c&apos;est à ce moment chez moi en télétravail,
                   que je décide de me focaliser sur ma futur carrière
                   professionelle.
                 </p>

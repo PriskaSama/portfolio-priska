@@ -89,7 +89,7 @@ export const ParticlesAnime = () => {
             bubble: {
               distance: 200,
               duration: 0.1,
-              mix: false,
+              mix: true,
               opacity: null,
               color: {
                 value: "",
@@ -98,7 +98,7 @@ export const ParticlesAnime = () => {
               divs: {
                 distance: 200,
                 duration: 0.4,
-                mix: false,
+                mix: true,
                 selectors: [],
               },
             },

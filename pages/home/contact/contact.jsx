@@ -38,7 +38,7 @@ const Contacts = () => {
             Me Contacter
           </h1>
           <p
-            className="leading-relaxed text-base font-bold"
+            className="leading-relaxed text-base font-bold lg:text-xl"
             data-aos="fade-up-left"
           >
             Que ce soit pour me proposer un job, un projet en collaboration ou

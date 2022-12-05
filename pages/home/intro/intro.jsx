@@ -10,14 +10,16 @@ import Link from "next/link";
 let styles = {
   title: "text-lg py-4 lg:py-0 lg:text-4xl",
   title2: "uppercase text-4xl lg:text-7xl",
-  template: "mt-40 h-[85vh] lg:h-[85vh] px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-evenly lg:items-center lg:pt-8",
+  template:
+    "mt-40 h-[85vh] lg:h-[85vh] px-8 py-12 lg:p-0 lg:flex lg:flex-col lg:justify-evenly lg:items-center lg:pt-8",
   text: "flex flex-row w-full justify-center py-4 text-center",
   intro: "py-16 lg:px-10 lg:text-center",
   profilphoto: "flex justify-center mt-8 lg:mt-0",
-  icons: "flex justify-center py-8 md:hidden lg:hidden",
+  icons: "flex justify-center py-8",
   animateBounce: "animate-bounce w-6 h-6",
   iconsSpace: "ml-4",
-  zoomanim: "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
+  zoomanim:
+    "cursor-pointer hover:scale-125 hover:ease-in hover:duration-300 hover:text-pink-400",
 };
 
 const Intro = () => {
@@ -38,7 +40,7 @@ const Intro = () => {
               sequence={[
                 "Développeuse web Front-End", // Types 'One'
                 1000, // Waits 1s
-                "Développeuse web passionnée", // Deletes 'One' and types 'Two'
+                "Développeuse web React", // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
                 // "Two Three", // Types 'Three' without deleting 'Two'
               ]}
@@ -56,16 +58,20 @@ const Intro = () => {
           modi.
         </p> */}
         <div className={styles.icons}>
-          <Link
+          <a
             href="https://www.linkedin.com/in/dervilleprisca/"
             className={styles.zoomanim}
             aria-label="link to my Linkedin"
           >
-            <LinkedInIcon sx={{ fontSize: 30 }} />
-          </Link>
-          <Link href="https://github.com/PriskaSama" className={styles.iconsSpace} aria-label="link to my Github">
-            <GitHubIcon sx={{ fontSize: 30 }} />
-          </Link>
+            <LinkedInIcon sx={{ fontSize: 50 }} />
+          </a>
+          <a
+            href="https://github.com/PriskaSama"
+            className={`${styles.iconsSpace} ${styles.zoomanim}`}
+            aria-label="link to my Github"
+          >
+            <GitHubIcon sx={{ fontSize: 50 }} />
+          </a>
         </div>
         <div className={styles.text}>
           <p className="text-pink-500">Cliquez en dessous pour voir la suite</p>

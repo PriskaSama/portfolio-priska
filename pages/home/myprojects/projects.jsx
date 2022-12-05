@@ -49,7 +49,7 @@ const Projects = () => {
       {/* PROJET 1 */}
       <div className={styles.template3}>
         <section
-          className="text-gray-500 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8 lg:text-xl"
           data-aos="fade-left"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
@@ -111,7 +111,7 @@ const Projects = () => {
         </section>
         {/* PROJET 2 */}
         <section
-          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8 lg:text-xl"
           data-aos="fade-right"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
@@ -152,7 +152,7 @@ const Projects = () => {
                 </div>
               </div>
               <p className="mt-8 italic font-bold">Bootstrap / TailwindCSS </p>
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-8">
                 <div className={styles.divImage}>
                   <a
                     href="https://github.com/PriskaSama/landing-page0"
@@ -175,7 +175,7 @@ const Projects = () => {
       {/* PROJET 3 */}
       <div className={styles.template3}>
         <section
-          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8 lg:text-xl"
           data-aos="fade-left"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
@@ -243,7 +243,7 @@ const Projects = () => {
         </section>
         {/* PROJET 4 */}
         <section
-          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8 lg:text-xl"
           data-aos="fade-right"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
@@ -288,7 +288,7 @@ const Projects = () => {
               <p className="mt-8 italic font-bold">
                 Webpack / Javascript / Tailwind CSS / Netlify
               </p>
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-12">
                 <div className="pt-4 lg:pt-28 lg:pl-2 lg:flex lg:justify-center">
                   <a
                     href="https://github.com/PriskaSama/maze-bank"
@@ -311,7 +311,7 @@ const Projects = () => {
       {/* PROJET 5 */}
       <div className={styles.template3}>
         <section
-          className="text-gray-500 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur-sm bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8 lg:text-xl"
           data-aos="fade-left"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
@@ -330,15 +330,16 @@ const Projects = () => {
               </h1>
               <h2 className={styles.title2}>Projet individuel</h2>
               <p className="mb-2 leading-relaxed text-left">
-                Notre tout premier projet par groupe de deux. L&apos;objectif
-                était d&apos;intégrer une maquette préalablement créée avec
-                Figma. Et de créer une interface web simple afin d&apos;intégrer
-                celle-ci.
+                Projet en lien avec notre Portfolio. L&apos;objectif
+                était de recréer un CV en ligne à partir de notre CV effectué sur le logiciel Canva.
+              </p>
+              <p className="mb-2 leading-relaxed text-left">
+                Créer une interface web simple afin d&apos;intégrer
+              une maquette du CV préalablement réalisé. 
               </p>
               <p className="mb-8 leading-relaxed text-left">
-                Et de créer une interface web simple afin d&apos;intégrer
-                celle-ci. L&apos;objectif etant de se familiariser avec les
-                classes CSS.
+              L&apos;objectif étant de se re familiariser avec les
+                classes CSS sans l&apos;aide de la librairie Tailwind CSS.
               </p>
               <div>
                 <div>
@@ -374,7 +375,7 @@ const Projects = () => {
         </section>
         {/* PROJET 6 */}
         <section
-          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8"
+          className="text-gray-500 backdrop-blur bg-white/20  body-font my-8 rounded-xl lg:mr-2 hover:scale-125 lg:w-3/5 lg:ml-4 g:mb-8 lg:text-xl"
           data-aos="fade-right"
         >
           <div className="container mx-auto flex px-5 pb-8 lg:pt-12 lg:pr-12 md:flex-row flex-col items-center">
