@@ -13,7 +13,7 @@ const Footer = () => {
       <div className={styles.template2}>
         <div>
           <span>
-            © 2022 -
+            © 2023 -
             <Link
               href="https://linkedin.com/in/dervilleprisca"
               target="_blank"
